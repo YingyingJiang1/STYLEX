@@ -1,0 +1,25 @@
+
+public static synchronized ZooKeeper getClient(String contextPath,
+        String session, int expireTime) throws IOException {
+    final String connectionId = concat(contextPath, session);
+
+    ZooKeeper zk = zkMap.get(connectionId);
+    if (zk == null) {
+        LOG.info("creating new connection for : '{}'", connectionId);
+        Endpoint e = contextMap.get(contextPath);
+        zk = new ZooKeeper(e.getHostPort(), 30000, new MyWatcher(connectionId));
+        
+        for (Map.Entry<String, String> p : e.getZooKeeperAuthInfo().entrySet()) {
+            zk.addAuthInfo("digest", String.format("%s:%s", p.getKey(),
+                    p.getValue()).getBytes());
+        }
+        
+        zkMap.put(connectionId, zk);
+
+        if (session != null) {
+            zkSessionTimers.put(connectionId, new SessionTimerTask(
+                    expireTime, session, contextPath, timer));
+        }
+    }
+    return zk;
+}
