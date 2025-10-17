@@ -1,0 +1,43 @@
+[
+     {
+        "name": "jedis",
+        "repo_path": "../projects/jedis",
+        "file_tag_output_csv": "../raw-data/jedis.csv",
+        "method_tag_output_csv": "../raw-data/jedis-method.csv",
+        "build_tool":"maven",
+        "jars":["target/jedis-6.1.0-SNAPSHOT.jar"]
+    },
+    {
+        "name": "arthas",
+        "repo_path": "../projects/arthas",
+        "file_tag_output_csv": "../raw-data/arthas.csv",
+        "method_tag_output_csv": "../raw-data/arthas-method.csv"
+    },
+    {
+        "name": "Stirling-PDF",
+        "repo_path": "../projects/Stirling-PDF",
+        "file_tag_output_csv": "../raw-data/Stirling-PDF.csv",
+        "method_tag_output_csv": "../raw-data/Stirling-PDF-method.csv",
+        "build_tool":"gradle",
+        "modules": ["app"]
+    },
+    {
+        "name": "NewPipe",
+        "repo_path": "../projects/NewPipe",
+        "file_tag_output_csv": "../raw-data/NewPipe.csv",
+        "method_tag_output_csv": "../raw-data/NewPipe-method.csv"
+    },
+    {
+        "name": "RxJava",
+        "repo_path": "../projects/RxJava",
+        "file_tag_output_csv": "../raw-data/RxJava.csv",
+        "method_tag_output_csv": "../raw-data/RxJava-method.csv"
+    },
+    {
+        "name": "zookeeper",
+        "repo_path": "../projects/zookeeper",
+        "file_tag_output_csv": "../raw-data/zookeeper.csv",
+        "method_tag_output_csv": "../raw-data/zookeeper-method.csv"
+    }
+
+]

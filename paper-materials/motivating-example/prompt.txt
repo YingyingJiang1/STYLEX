@@ -1,0 +1,23 @@
+Implement the target function according to its docstring and function signature.
+Ensure coding style of the generated code is consistent with the style of the given code context.
+Only output the generated function(including function head and function body), without any extra text or explanations.
+Note: Generate the target function with indentation matching its placement in the surrounding context.
+
+The signature and docstring of the target function:
+	/**
+	 * Reads a line of bytes from the given InputStream.
+	 * 
+	 * This method reads bytes from the input stream until it encounters a
+	 * carriage return (CR, '\r') or line feed (LF, '\n') character, or
+	 * the end of the stream. The line terminator itself is not included
+	 * in the returned byte array.
+	 * 
+	 * @param in the InputStream to read from
+	 * @return a byte array containing the line read (excluding CR/LF), or null if end-of-stream is reached before any data
+	 * @throws IOException if an I/O error occurs while reading from the stream
+	 */
+	public static byte[] readLine(InputStream in) throws IOException
+
+The code context is as follows:
+
+<context>
