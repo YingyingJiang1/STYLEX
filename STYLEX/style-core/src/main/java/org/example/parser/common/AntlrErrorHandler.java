@@ -6,11 +6,7 @@ import org.example.parser.common.context.ExtendContext;
 import org.example.parser.common.token.ExtendToken;
 import org.example.parser.java.antlr.JavaParser;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/3/27 0:28
- */
+
 public class AntlrErrorHandler extends DefaultErrorStrategy {
   @Override
   public void recover(Parser recognizer, RecognitionException e) {

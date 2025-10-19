@@ -13,11 +13,6 @@ import java.util.*;
 import java.util.function.BiPredicate;
 import java.util.function.Predicate;
 
-/*
- * @description:
- * @author     : Jiang Yingying
- * @create     : 2024/1/20 22:42
- */
 public class ExtendContext extends ParserRuleContext {
     public int hierarchy = 0;
     protected static int braceDepth = 0;

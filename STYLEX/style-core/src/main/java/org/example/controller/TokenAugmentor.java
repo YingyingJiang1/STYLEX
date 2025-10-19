@@ -17,11 +17,6 @@ import org.example.utils.editor.NodeEditorFactory;
 
 import java.util.*;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/3/30 20:57
- */
 public class TokenAugmentor {
 	int curNestingDepth = 0;
 

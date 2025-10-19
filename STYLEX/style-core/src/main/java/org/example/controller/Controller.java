@@ -20,11 +20,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/3/13 20:59
- */
 public class Controller {
     private static final Logger logger = LoggerFactory.getLogger(Controller.class);
     private MyParser parser;

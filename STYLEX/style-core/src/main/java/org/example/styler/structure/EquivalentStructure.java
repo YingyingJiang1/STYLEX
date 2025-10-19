@@ -28,11 +28,7 @@ import org.w3c.dom.*;
 
 import java.util.*;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/4/2 23:40
- */
+
 public class EquivalentStructure {
 	public static Logger logger = LoggerFactory.getLogger(EquivalentStructure.class);
 

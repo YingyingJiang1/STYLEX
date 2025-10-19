@@ -9,11 +9,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/4/13 17:16
- */
+
 public class NotIntegerChecker extends Checker{
 
 	public NotIntegerChecker(String[][] argsList) {

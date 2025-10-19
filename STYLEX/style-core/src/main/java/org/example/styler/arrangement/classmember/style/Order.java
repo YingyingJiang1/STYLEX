@@ -8,11 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/2/1 14:34
- */
+
 public class Order implements DomIO {
 
 

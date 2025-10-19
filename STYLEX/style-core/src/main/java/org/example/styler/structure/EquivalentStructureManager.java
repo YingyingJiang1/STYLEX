@@ -23,11 +23,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.*;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/4/3 0:00
- */
 public class EquivalentStructureManager {
 
 

@@ -12,11 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/2/1 14:59
- */
+
 public class ExtendToken extends CommonToken {
 
     protected int hierarchy = 0;

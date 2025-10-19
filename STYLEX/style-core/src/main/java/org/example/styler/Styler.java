@@ -11,11 +11,7 @@ import org.springframework.lang.Nullable;
 import java.util.List;
 import java.util.Set;
 
-/*
- * @description:
- * @author     : Jiang Yingying
- * @create     : 2024/1/21 10:44
- */
+
 public abstract class Styler {
     protected Style style;
     protected boolean enableExtraction = true;

@@ -23,11 +23,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/4/5 16:26
- */
 public class ParseTreeUtil {
   public static Logger logger = LoggerFactory.getLogger(ParseTreeUtil.class);
 

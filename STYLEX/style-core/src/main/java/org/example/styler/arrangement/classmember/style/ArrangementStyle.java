@@ -3,11 +3,7 @@ package org.example.styler.arrangement.classmember.style;
 import org.example.style.CommonStyle;
 import org.example.style.rule.StyleRule;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/2/1 14:31
- */
+
 public class ArrangementStyle extends CommonStyle {
     
     public ArrangementStyle() {

@@ -12,11 +12,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/4/13 14:40
- */
 public class OpOpAssignConvertHandler extends Handler{
 	static private Map<String, String> convertMap = new HashMap<>();
 	static {

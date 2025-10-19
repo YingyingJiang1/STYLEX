@@ -1,10 +1,6 @@
 package org.example.styler.arrangement.classmember.style;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/2/1 14:33
- */
+
 public enum EnumType {
     //--------------------------------------------------- Modifiers ---------------------------------------------------
     PUBLIC, PRIVATE, PROTECTED,

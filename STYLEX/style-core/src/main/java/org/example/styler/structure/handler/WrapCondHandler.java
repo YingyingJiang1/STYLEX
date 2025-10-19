@@ -10,11 +10,6 @@ import org.example.styler.structure.EquivalentStructure;
 
 import java.util.List;
 
-/*
- * @description Encapsulate expression with parentheses when the expression contains && or ||.
- * @author       Yingying Jiang
- * @create       2024/4/12 10:46
- */
 public class WrapCondHandler extends Handler{
 	public WrapCondHandler(String[][] argsList) {
 		super(argsList);

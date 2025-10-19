@@ -16,10 +16,6 @@ import org.example.styler.Styler;
 import java.util.*;
 import java.util.function.Predicate;
 
-/*
- * @author       Yingying Jiang
- * @create       2024/3/25 6:34
- */
 public class ArrangementStyler extends Styler {
 
 	private static Set<Integer> relevantRules = null;

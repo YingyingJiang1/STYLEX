@@ -7,11 +7,7 @@ import org.antlr.v4.runtime.misc.Interval;
 import org.antlr.v4.runtime.misc.Pair;
 import org.example.parser.common.token.ExtendToken;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/2/1 15:03
- */
+
 public class ExtendTokenFactory extends CommonTokenFactory {
   public ExtendTokenFactory(boolean copyText) {
     super(copyText);

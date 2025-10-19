@@ -2,11 +2,6 @@ package org.example.parser.common;
 
 import org.antlr.v4.runtime.tree.*;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/4/13 12:35
- */
 public class MyParseTreeWalker extends ParseTreeWalker {
 	@Override
 	public void walk(ParseTreeListener listener, ParseTree t) {

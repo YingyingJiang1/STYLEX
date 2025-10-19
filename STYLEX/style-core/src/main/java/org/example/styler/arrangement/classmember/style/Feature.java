@@ -7,11 +7,7 @@ import org.example.parser.common.MyParser;
 import java.util.*;
 import java.util.Objects;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/2/1 14:34
- */
+
 public class Feature implements DomIO {
 
     private Map<Integer, Integer> modifierStatistics;

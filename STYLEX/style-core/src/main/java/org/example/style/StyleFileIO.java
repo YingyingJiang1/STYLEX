@@ -23,11 +23,7 @@ import org.example.styler.structure.style.StructPreferenceProperty;
 import org.example.styler.structure.style.StructureStyle;
 import org.slf4j.Logger;
 
-/*
- * @description:
- * @author     : Jiang Yingying
- * @create     : 2024/1/20 22:15
- */
+
 public class StyleFileIO {
     private static final Logger logger = org.slf4j.LoggerFactory.getLogger(StyleFileIO.class);
 

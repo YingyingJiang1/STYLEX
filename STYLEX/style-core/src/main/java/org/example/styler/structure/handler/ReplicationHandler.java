@@ -9,11 +9,7 @@ import org.example.styler.structure.vtree.VirtualNode;
 import java.util.ArrayList;
 import java.util.List;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/4/11 20:15
- */
+
 public class ReplicationHandler extends Handler{
 	/**
 	 *

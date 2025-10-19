@@ -2,17 +2,9 @@ package org.example.utils;
 
 import java.util.*;
 
-/*
- * @description:
- * @author     : Jiang Yingying
- * @create     : 2024/1/9 17:25
- */
+
 public class Helper {
-  /*
-   * @return int[]: An array of length of 2:[start, end].'start' is inclusive while 'end' is exclusive.
-   * @author     : Jiang Yingying
-   * @create     : 2024/1/9 15:15
-   */
+
   public static <T> int[] binarySearch(List<? extends Comparable<? super T>> list, T target) {
     int index = Collections.binarySearch(list, target);
     int[] range = {index, index};

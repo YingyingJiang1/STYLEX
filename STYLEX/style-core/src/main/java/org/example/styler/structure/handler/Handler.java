@@ -8,11 +8,7 @@ import org.slf4j.LoggerFactory;
 import java.util.Arrays;
 import java.util.List;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/4/4 19:44
- */
+
 public abstract class Handler {
   public static Logger logger = LoggerFactory.getLogger(Handler.class);
   String[][] argsList;

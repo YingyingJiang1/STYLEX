@@ -9,11 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/4/2 15:08
- */
+
 public class FileCollector {
   public static Logger logger = LoggerFactory.getLogger(FileCollector.class);
   public static final int MAX_FILE_COUNT = 1000;

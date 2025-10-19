@@ -10,11 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/4/4 23:48
- */
+
 public class CondReverserHandler extends Handler{
 
   public CondReverserHandler(String[][] argsList) {

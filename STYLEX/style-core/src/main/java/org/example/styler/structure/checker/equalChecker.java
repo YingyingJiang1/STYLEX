@@ -8,11 +8,6 @@ import org.example.styler.structure.vtree.VirtualNode;
 import java.util.Arrays;
 import java.util.List;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/4/4 19:44
- */
 public class equalChecker extends Checker {
 
   public equalChecker(String[][] argsList) {

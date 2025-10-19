@@ -22,11 +22,7 @@ import org.springframework.lang.Nullable;
 
 import java.util.*;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/4/2 23:51
- */
+
 public class StructureStyler extends Styler {
     public static boolean TEST_MODE = false;
 

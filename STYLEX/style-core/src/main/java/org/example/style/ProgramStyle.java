@@ -5,11 +5,7 @@ import org.example.parser.common.MyParser;
 
 import java.util.*;
 
-/*
- * @description:
- * @author     : Jiang Yingying
- * @create     : 2024/1/8 22:27
- */
+
 public class ProgramStyle implements DomIO {
     Map<String, Style> styleMap = new HashMap<>();
 

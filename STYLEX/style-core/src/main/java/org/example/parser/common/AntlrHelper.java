@@ -11,11 +11,7 @@ import org.example.parser.java.antlr.JavaParser;
 
 import java.util.*;
 
-/*
- * @description
- * @author       Yingying Jiang
- * @create       2024/3/30 19:56
- */
+
 public class AntlrHelper {
 
 
