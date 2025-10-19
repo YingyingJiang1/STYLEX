@@ -23,12 +23,21 @@ STYLEX
 + `paper-supplement`: supplementary materials for our paper, including tables related to `Section III` and the motivating example.
 
 
-
 ## ⚙️ Installation
-1. 
 
-2. Intellij IDEA plugin
-The IntelliJ IDEA plugin is under active development and will be released very soon.
+1. Integrate into your project via Maven.
+```xml
+<dependency>
+    <groupId>org.example</groupId>
+    <artifactId>stylex</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
+2. **IntelliJ IDEA Plugin**  
+   The IntelliJ IDEA plugin is under active development and will be released very soon.
+
+
 
 ## 🚀 Usage
 1. Command line args
