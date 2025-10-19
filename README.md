@@ -23,8 +23,34 @@ STYLEX
 + `paper-supplement`: supplementary materials for our paper, including tables related to `Section III` and the motivating example.
 
 
+
 ## ⚙️ Installation
+1. 
+
+2. Intellij IDEA plugin
+The IntelliJ IDEA plugin is under active development and will be released very soon.
 
 ## 🚀 Usage
+1. Command line args
+```text
+Usage:
+-src <arg> -target <arg> [-f/-d <arg>] [-so <arg>] [-c/--check]
+-target <arg> -so <arg> [-c/--check]
 
-## 🎬 Demo
+Options:
+ -src <arg>              Source file or directory path.
+ -target <arg>           Target file/directory path or target style file path.
+ -f <arg>                Output file path for transformed code.
+ -d <arg>                Output directory path for transformed code 
+                         (the file name remains unchanged).
+ -so, --style-out <arg>  Output path for the generated style file (optional).
+ -c, --check             Perform style checking only.
+
+```
+
+2. Intellij IDEA plugin
+The documentation for our IntelliJ IDEA plugin will be released together with the plugin.
+
+
+## 🎬 Plugin Demo
+![Plugin Demo](assets/demo.gif)
