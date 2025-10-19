@@ -5,6 +5,7 @@
 STYLEX
 ├── README.md
 ├── STYLEX
+├── plugin
 ├── evaluation
 │   ├── data
 │   ├── human-study
@@ -14,6 +15,7 @@ STYLEX
 └── paper-supplement
 ```
 + `STYLEX`: source code for implementing our approach and the plugin extension.  
++ `plugin`: the plugin extension. 
 + `evaluation`  
     + `data`: transferred results of all evaluated approaches.  
     + `human-study`: consistency tasks and questionnaire template used in the human study.  
