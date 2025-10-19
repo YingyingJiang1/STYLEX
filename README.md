@@ -66,4 +66,4 @@ We demonstrate two operations:
 1. select an entire directory as the reference code -> File-level style transfer
 2. select a code snippet as the reference style -> Snippet-level style transfer (supporting function-level and statement-level granularity)
 
-![Plugin Demo](assets/demo.gif)
+<img src="assets/demo.gif" alt="Plugin Demo" style="zoom: 50%;" />
