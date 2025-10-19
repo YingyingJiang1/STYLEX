@@ -60,7 +60,8 @@ Options:
 ```
 
 2. Intellij IDEA plugin
-The documentation for our IntelliJ IDEA plugin will be released together with the plugin.
+
+    The documentation will be released together with the plugin.
 
 
 ## 🎬 Plugin Demo
