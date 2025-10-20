@@ -3,27 +3,34 @@
 ## 📂 Directory Structure
 ```text
 STYLEX
-├── README.md
-├── STYLEX
-├── plugin
 ├── evaluation
 │   ├── data
+│   │   ├── results
+│   │   └── tasks
 │   ├── human-study
 │   ├── meta-data
 │   ├── raw-data
 │   └── src
-└── paper-supplement
+├── paper-supplement
+├── plugin
+└──  STYLEX
 ```
-+ `STYLEX`: source code for implementing our approach.  
-+ `plugin`: the plugin extension. 
+
 + `evaluation`  
-    + `data`: transferred results of all evaluated approaches.  
+    + `data`:  
+        + `results`: transferred results of all evaluated approaches. 
+        + `tasks`: 387 consistency tasks. Each task uses `pair_id` as the directory name. `src.java` is the file to be transferred, and the `reference` directory contains all reference code.
     + `human-study`: consistency tasks and questionnaire template used in the human study.  
-    Code links in our questionnaire template display the code in `tasks`. We remove the url to comply with anonymization requirements.
+    Code links in our questionnaire template display the code in `task-results`. We remove the url to comply with anonymization requirements.
     + `meta-data`: statistical information related to the construction of consistency tasks.  
     + `raw-data`: partitioned Java project datasets.  
     + `src`: source code for experiments.  
 + `paper-supplement`: supplementary materials for our paper, including tables related to `Section III` and the motivating example.
++ `plugin`: the plugin extension. 
++ `STYLEX`: source code for implementing our approach.  
+
+
+
 
 
 ## ⚙️ Installation
@@ -41,7 +48,7 @@ Usage:
 
 Options:
  -src <arg>              Source file or directory path.
- -target <arg>           Target file/directory path or target style file path.
+ -target <arg>           Reference file/directory path or target style file path.
  -f <arg>                Output file path for transformed code.
  -d <arg>                Output directory path for transformed code 
                          (the file name remains unchanged).
