@@ -22,7 +22,7 @@ import java.util.function.Function;
 
 /*
  * @description
- * @author       Yingying Jiang
+ * @author       anonymous
  * @create       2024/3/30 11:45
  */
 public class BlankLineStyler extends Styler {
@@ -449,3 +449,4 @@ public class BlankLineStyler extends Styler {
         }
     }
 }
+

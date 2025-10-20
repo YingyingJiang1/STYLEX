@@ -19,6 +19,7 @@ STYLEX
 + `evaluation`  
     + `data`: transferred results of all evaluated approaches.  
     + `human-study`: consistency tasks and questionnaire template used in the human study.  
+    Code links in our questionnaire template display the code in `tasks`. We remove the url to comply with anonymization requirements.
     + `meta-data`: statistical information related to the construction of consistency tasks.  
     + `raw-data`: partitioned Java project datasets.  
     + `src`: source code for experiments.  

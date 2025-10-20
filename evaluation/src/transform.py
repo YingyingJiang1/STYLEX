@@ -374,7 +374,7 @@ def run_llm(model_name, data:list[TransformPairPack], result_manager:ResultManag
     # gets API Key from environment variable OPENAI_API_KEY
     client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",
+    api_key="",
     )
     
     llm_config = LLMConfig()

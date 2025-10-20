@@ -28,7 +28,7 @@ import java.util.function.Predicate;
 
 /*
  * @description
- * @author       Yingying Jiang
+ * @author       anonymous
  * @create       2024/4/5 22:08
  */
 public class MyJavaParser implements MyParser {
@@ -1131,3 +1131,4 @@ public class MyJavaParser implements MyParser {
     }
 
 }
+

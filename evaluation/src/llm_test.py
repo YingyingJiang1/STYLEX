@@ -21,7 +21,7 @@ def create_chat_content(model, prompt):
 def run_llm(model, batch_prompt, output_file, **kwargs):
     client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",
+    api_key="",
     )
     
     buffer = BufferedWriter(output_file)

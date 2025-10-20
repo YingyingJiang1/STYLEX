@@ -29,16 +29,16 @@ MONITOR = False
 
 # ============ 实验配置 ============
 METHODS = [
-            # "egsi",
+            "egsi",
             # "egsi-newformat",
             # "egsi-lexical",
             # "egsi-syntactic",
             # "egsi-format",
             # "egsi-naming",
             # "egsi-structure",
-            # "codebuff",
+            "codebuff",
             "deepseek-r1-0528",
-            # "gpt-4.1",
+            "gpt-4.1",
             # "claude-3.7-sonnet"
         ]
 LINE_SIZES = [200, 400]
@@ -322,7 +322,7 @@ def run_llm(model_name, data, result_manager:ResultManager,  override=False):
     # gets API Key from environment variable OPENAI_API_KEY
     client = OpenAI(
     base_url="https://api.deepseek.com",
-    api_key="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",
+    api_key="",
     )
     
     llm_config = LLMConfig()

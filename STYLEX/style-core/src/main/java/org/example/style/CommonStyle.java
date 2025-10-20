@@ -11,7 +11,7 @@ import java.util.List;
  * @description: Base class of all specific style classes. If new instance of `RuleSet` is defined, then the following methods
  * must be overridden: addElement, parseElement, addRule, getProperty, fillStyle, contains.
  * instantiate StyleBase's subclass.
- * @author     : Jiang Yingying
+ * @author     : anonymous
  * @create     : 2024/1/7 17:55
  */
 public class CommonStyle implements DomIO,Style {
@@ -226,3 +226,4 @@ public class CommonStyle implements DomIO,Style {
   }*/
 
 }
+

@@ -51,7 +51,7 @@ The code in the Target section is from the same author T. Please choose the opti
 **Task 1: Page 2 [Instructions]**  
 
 **The code in the Target section is from the same author T. Please evaluate the similarity of the coding style of options A–E to author T’s code in different style categories and answer the following 3 questions.**  
-[**Click to view code**]() [Instructions]  
+[Click to view code]() [Instructions]  
 
 **Please rate the similarity of the formatting style between options A–E and author T’s code.**  
 Formatting includes but is not limited to: indentation, spaces, line breaks, blank lines, placement of `{}`, comment positions. [Matrix Single Choice]  
