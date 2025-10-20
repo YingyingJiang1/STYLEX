@@ -14,7 +14,7 @@ STYLEX
 │   └── src
 └── paper-supplement
 ```
-+ `STYLEX`: source code for implementing our approach and the plugin extension.  
++ `STYLEX`: source code for implementing our approach.  
 + `plugin`: the plugin extension. 
 + `evaluation`  
     + `data`: transferred results of all evaluated approaches.  
