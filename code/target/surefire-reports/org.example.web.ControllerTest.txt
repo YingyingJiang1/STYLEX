@@ -1,0 +1,91 @@
+-------------------------------------------------------------------------------
+Test set: org.example.web.ControllerTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 1.916 s <<< FAILURE! -- in org.example.web.ControllerTest
+org.example.web.ControllerTest.testRegisterProject -- Time elapsed: 0.399 s <<< FAILURE!
+java.lang.AssertionError: Async not started
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:37)
+	at org.springframework.test.util.AssertionErrors.assertTrue(AssertionErrors.java:70)
+	at org.springframework.test.web.servlet.result.RequestResultMatchers.assertAsyncStarted(RequestResultMatchers.java:167)
+	at org.springframework.test.web.servlet.result.RequestResultMatchers.lambda$asyncStarted$0(RequestResultMatchers.java:70)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at org.example.web.ControllerTest.comparePostResults(ControllerTest.java:141)
+	at org.example.web.ControllerTest.testRegisterProject(ControllerTest.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.web.ControllerTest.testExtractStyle_StyleServiceReturnsFailure -- Time elapsed: 0.044 s <<< FAILURE!
+java.lang.AssertionError: Status expected:<400> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:637)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at org.example.web.ControllerTest.testExtractStyle_StyleServiceReturnsFailure(ControllerTest.java:88)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.web.ControllerTest.testGetStyleProfileId -- Time elapsed: 0.009 s <<< FAILURE!
+java.lang.AssertionError: Async not started
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:37)
+	at org.springframework.test.util.AssertionErrors.assertTrue(AssertionErrors.java:70)
+	at org.springframework.test.web.servlet.result.RequestResultMatchers.assertAsyncStarted(RequestResultMatchers.java:167)
+	at org.springframework.test.web.servlet.result.RequestResultMatchers.lambda$asyncStarted$0(RequestResultMatchers.java:70)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at org.example.web.ControllerTest.compareGetResults(ControllerTest.java:153)
+	at org.example.web.ControllerTest.testGetStyleProfileId(ControllerTest.java:106)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.web.ControllerTest.testGetStyleProfileId_StyleServiceReturnsFailure -- Time elapsed: 0.010 s <<< FAILURE!
+java.lang.AssertionError: Status expected:<400> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:637)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at org.example.web.ControllerTest.testGetStyleProfileId_StyleServiceReturnsFailure(ControllerTest.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.web.ControllerTest.testRegisterProject_StyleServiceReturnsFailure -- Time elapsed: 0.009 s <<< FAILURE!
+java.lang.AssertionError: Async not started
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:37)
+	at org.springframework.test.util.AssertionErrors.assertTrue(AssertionErrors.java:70)
+	at org.springframework.test.web.servlet.result.RequestResultMatchers.assertAsyncStarted(RequestResultMatchers.java:167)
+	at org.springframework.test.web.servlet.result.RequestResultMatchers.lambda$asyncStarted$0(RequestResultMatchers.java:70)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at org.example.web.ControllerTest.comparePostResults(ControllerTest.java:141)
+	at org.example.web.ControllerTest.testRegisterProject_StyleServiceReturnsFailure(ControllerTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.web.ControllerTest.testExtractStyle -- Time elapsed: 0.011 s <<< FAILURE!
+java.lang.AssertionError: Async not started
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:37)
+	at org.springframework.test.util.AssertionErrors.assertTrue(AssertionErrors.java:70)
+	at org.springframework.test.web.servlet.result.RequestResultMatchers.assertAsyncStarted(RequestResultMatchers.java:167)
+	at org.springframework.test.web.servlet.result.RequestResultMatchers.lambda$asyncStarted$0(RequestResultMatchers.java:70)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at org.example.web.ControllerTest.comparePostResults(ControllerTest.java:141)
+	at org.example.web.ControllerTest.testExtractStyle(ControllerTest.java:70)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.web.ControllerTest.testGetStyleProfileEntity -- Time elapsed: 0.009 s <<< FAILURE!
+java.lang.AssertionError: Async not started
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:37)
+	at org.springframework.test.util.AssertionErrors.assertTrue(AssertionErrors.java:70)
+	at org.springframework.test.web.servlet.result.RequestResultMatchers.assertAsyncStarted(RequestResultMatchers.java:167)
+	at org.springframework.test.web.servlet.result.RequestResultMatchers.lambda$asyncStarted$0(RequestResultMatchers.java:70)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at org.example.web.ControllerTest.compareGetResults(ControllerTest.java:153)
+	at org.example.web.ControllerTest.testGetStyleProfileEntity(ControllerTest.java:132)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

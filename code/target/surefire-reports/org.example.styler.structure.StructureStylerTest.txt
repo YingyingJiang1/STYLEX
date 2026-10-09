@@ -1,0 +1,183 @@
+-------------------------------------------------------------------------------
+Test set: org.example.styler.structure.StructureStylerTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 0.414 s <<< FAILURE! -- in org.example.styler.structure.StructureStylerTest
+org.example.styler.structure.StructureStylerTest.analyzeInconsistency_redundantCode_matchesGolden -- Time elapsed: 0.023 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <============================================================File:src\test\sources\structure\redundant_code\f2.javaTotalInconsistencies:1============================================================[1]Type:STRUCTURAL_STYLEBeginLocation:line11,column3EndLocation:line16,column3Expected:if(x==0){x++;}System.out.println("Case"+caseNumber+":"+x);Actual:if(x==0){x++;System.out.println("Case"+caseNumber+":"+x);}else{System.out.println("Case"+caseNumber+":"+x);}Message:Patternpreference'if($E){$S+}$S1+'> but was: <============================================================File:src\test\sources\structure\redundant_code\f2.javaTotalInconsistencies:0============================================================>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.TestBase.testCodeEqualWithoutWS(TestBase.java:293)
+	at org.example.TestBase.assertAnalyzeInconsistencyMatchesGolden(TestBase.java:203)
+	at org.example.TestBase.assertAnalyzeInconsistencyMatchesGolden(TestBase.java:172)
+	at org.example.styler.structure.StructureStylerTest.analyzeInconsistency_redundantCode_matchesGolden(StructureStylerTest.java:267)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.StructureStylerTest.testCombination1 -- Time elapsed: 0.166 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <@SuppressWarnings("unchecked")voidremove(PublishSubscription<T>ps){for(;;){PublishSubscription<T>[]a=subscribers.get();if(a==TERMINATED||a==EMPTY){return;}intn=a.length;intj=-1;for(inti=0;i<n;i++){if(a[i]!=ps){continue;}j=i;break;}if(j<0){return;}PublishSubscription<T>[]b;if(n==1){b=EMPTY;}else{b=newPublishSubscription[n-1];System.arraycopy(a,0,b,0,j);System.arraycopy(a,j+1,b,j,n-j-1);}if(subscribers.compareAndSet(a,b)){return;}}}> but was: <@SuppressWarnings("unchecked")voidremove(PublishSubscription<T>ps){for(;;){PublishSubscription<T>[]a=subscribers.get();if(a==TERMINATED||a==EMPTY){return;}intn=a.length;intj=-1;for(inti=0;i<n;i++){if(a[i]==ps){j=i;break;}}if(j<0){return;}PublishSubscription<T>[]b;if(n==1){b=EMPTY;}else{b=newPublishSubscription[n-1];System.arraycopy(a,0,b,0,j);System.arraycopy(a,j+1,b,j,n-j-1);}if(subscribers.compareAndSet(a,b)){return;}}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.TestBase.testCodeEqualWithoutWS(TestBase.java:293)
+	at org.example.styler.structure.StructureStylerTest.testCombination1(StructureStylerTest.java:134)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.StructureStylerTest.analyzeInconsistency_continuePreference_matchesGolden -- Time elapsed: 0.043 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <============================================================File:src\test\sources\structure\continue\f2.javaTotalInconsistencies:1============================================================[1]Type:STRUCTURAL_STYLEBeginLocation:line26,column3EndLocation:line46,column22Expected:if(i>=a&&i>=b&&i>=c){mem[i]=Math.max(1+mem[i-a],Math.max(1+mem[i-b],1+mem[i-c]));continue;}if(i>=a&&i>=b)mem[i]=Math.max(1+mem[i-a],1+mem[i-b]);elseif(i>=c&&i>=b)mem[i]=Math.max(1+mem[i-c],1+mem[i-b]);elseif(i>=a&&i>=c)mem[i]=Math.max(1+mem[i-a],1+mem[i-c]);elseif(i>=a)mem[i]=1+mem[i-a];elseif(i>=b)mem[i]=1+mem[i-b];elseif(i>=c)mem[i]=1+mem[i-c];Actual:if(i>=a&&i>=b&&i>=c){mem[i]=Math.max(1+mem[i-a],Math.max(1+mem[i-b],1+mem[i-c]));}elseif(i>=a&&i>=b)mem[i]=Math.max(1+mem[i-a],1+mem[i-b]);elseif(i>=c&&i>=b)mem[i]=Math.max(1+mem[i-c],1+mem[i-b]);elseif(i>=a&&i>=c)mem[i]=Math.max(1+mem[i-a],1+mem[i-c]);elseif(i>=a)mem[i]=1+mem[i-a];elseif(i>=b)mem[i]=1+mem[i-b];elseif(i>=c)mem[i]=1+mem[i-c];Message:Patternpreference'if($E){$S+continue;}$S1+'> but was: <============================================================File:src\test\sources\structure\continue\f2.javaTotalInconsistencies:0============================================================>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.TestBase.testCodeEqualWithoutWS(TestBase.java:293)
+	at org.example.TestBase.assertAnalyzeInconsistencyMatchesGolden(TestBase.java:203)
+	at org.example.TestBase.assertAnalyzeInconsistencyMatchesGolden(TestBase.java:172)
+	at org.example.styler.structure.StructureStylerTest.analyzeInconsistency_continuePreference_matchesGolden(StructureStylerTest.java:276)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.StructureStylerTest.testApplyStyle_continuePreference -- Time elapsed: 0.049 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <importjava.io.BufferedReader;importjava.io.InputStreamReader;importjava.util.Scanner;publicclassCutRibbon{publicstaticint[]mem;publicstaticinta,b,c;publicstaticvoidmain(String[]args){Scanners=newScanner(newBufferedReader(newInputStreamReader(System.in)));//BufferedReadern=newBufferedReader(newInputStreamReader(System.in));intvalor=s.nextInt();a=s.nextInt();b=s.nextInt();c=s.nextInt();mem=newint[4001];for(inti=0;i<mem.length;i++){mem[i]=-10000;}mem[0]=0;for(inti=1;i<mem.length;i++){if(i>=a&&i>=b&&i>=c){mem[i]=Math.max(1+mem[i-a],Math.max(1+mem[i-b],1+mem[i-c]));continue;}if(i>=a&&i>=b){mem[i]=Math.max(1+mem[i-a],1+mem[i-b]);continue;}if(i>=c&&i>=b){mem[i]=Math.max(1+mem[i-c],1+mem[i-b]);continue;}if(i>=a&&i>=c){mem[i]=Math.max(1+mem[i-a],1+mem[i-c]);continue;}if(i>=a){mem[i]=1+mem[i-a];continue;}if(i>=b){mem[i]=1+mem[i-b];continue;}if(i>=c)mem[i]=1+mem[i-c];}System.out.println(mem[valor]);}}> but was: <importjava.io.BufferedReader;importjava.io.InputStreamReader;importjava.util.Scanner;publicclassCutRibbon{publicstaticint[]mem;publicstaticinta,b,c;publicstaticvoidmain(String[]args){Scanners=newScanner(newBufferedReader(newInputStreamReader(System.in)));//BufferedReadern=newBufferedReader(newInputStreamReader(System.in));intvalor=s.nextInt();a=s.nextInt();b=s.nextInt();c=s.nextInt();mem=newint[4001];for(inti=0;i<mem.length;i++){mem[i]=-10000;}mem[0]=0;for(inti=1;i<mem.length;i++){if(i>=a&&i>=b&&i>=c){mem[i]=Math.max(1+mem[i-a],Math.max(1+mem[i-b],1+mem[i-c]));}elseif(i>=a&&i>=b)mem[i]=Math.max(1+mem[i-a],1+mem[i-b]);elseif(i>=c&&i>=b)mem[i]=Math.max(1+mem[i-c],1+mem[i-b]);elseif(i>=a&&i>=c)mem[i]=Math.max(1+mem[i-a],1+mem[i-c]);elseif(i>=a)mem[i]=1+mem[i-a];elseif(i>=b)mem[i]=1+mem[i-b];elseif(i>=c)mem[i]=1+mem[i-c];}System.out.println(mem[valor]);}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.TestBase.testCodeEqualWithoutWS(TestBase.java:293)
+	at org.example.styler.structure.StructureStylerTest.testApplyStyle_continuePreference(StructureStylerTest.java:211)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.StructureStylerTest.testLoop -- Time elapsed: 0.009 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <//Seq=[-1,-1,-1,-1,1,-1,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]importjava.util.*;importjava.io.*;importjava.util.*;importjava.io.*;publicclassSolution{publicvoidgo()throwsException{inti=0;while(i<n){a[i]=Integer.parseInt(st.nextToken());if(a[i]<1||a[i]>1000000000)while(true);i++;}}}> but was: <//Seq=[-1,-1,-1,-1,1,-1,0,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]importjava.util.*;importjava.io.*;importjava.util.*;importjava.io.*;publicclassSolution{publicvoidgo()throwsException{for(inti=0;i<n;i++){a[i]=Integer.parseInt(st.nextToken());if(a[i]<1||a[i]>1000000000)while(true);}}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.TestBase.testCodeEqualWithoutWS(TestBase.java:293)
+	at org.example.styler.structure.StructureStylerTest.testLoop(StructureStylerTest.java:179)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.StructureStylerTest.testIf -- Time elapsed: 0.022 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <publicstaticvoidmain(String[]args){intscore=78;//可以改成其他分数测试for(inti=0;i<10;i++){if(score>=90||score>=80&&score<90){System.out.println("优秀");continue;}inta=Integer.parseInt(args[0]);intb=Integer.parseInt(args[1]);if(a>b||a+b<50){++i;break;}}}> but was: <publicstaticvoidmain(String[]args){intscore=78;//可以改成其他分数测试for(inti=0;i<10;i++){if(score>=90){System.out.println("优秀");continue;}if(score>=80&&score<90){System.out.println("优秀");continue;}inta=Integer.parseInt(args[0]);intb=Integer.parseInt(args[1]);if(a>b){++i;break;}if(a+b<50){++i;break;}}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.TestBase.testCodeEqualWithoutWS(TestBase.java:293)
+	at org.example.styler.structure.StructureStylerTest.testIf(StructureStylerTest.java:110)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.StructureStylerTest.analyzeInconsistency_loop_matchesGolden -- Time elapsed: 0.011 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <============================================================File:src\test\sources\structure\loop\f1.javaTotalInconsistencies:1============================================================[1]Type:STRUCTURAL_STYLEBeginLocation:line11,column2EndLocation:line14,column2Expected:inti=0;while(i<n){a[i]=Integer.parseInt(st.nextToken());if(a[i]<1||a[i]>1000000000)while(true);i++;}Actual:for(inti=0;i<n;i++){a[i]=Integer.parseInt(st.nextToken());if(a[i]<1||a[i]>1000000000)while(true);}Message:Patternpreference'$VAR_DEC;while($E1){$S*$S(expStmt)}'> but was: <============================================================File:src\test\sources\structure\loop\f1.javaTotalInconsistencies:0============================================================>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.TestBase.testCodeEqualWithoutWS(TestBase.java:293)
+	at org.example.TestBase.assertAnalyzeInconsistencyMatchesGolden(TestBase.java:203)
+	at org.example.TestBase.assertAnalyzeInconsistencyMatchesGolden(TestBase.java:172)
+	at org.example.styler.structure.StructureStylerTest.analyzeInconsistency_loop_matchesGolden(StructureStylerTest.java:303)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.StructureStylerTest.testRedudantCode -- Time elapsed: 0.019 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <importjava.util.Scanner;publicclassMain{publicstaticvoidmain(String[]args){Scannerscanner=newScanner(System.in);intcaseNumber=1;while(true){intx=scanner.nextInt();if(x==0){x++;}System.out.println("Case"+caseNumber+":"+x);}scanner.close();}}> but was: <importjava.util.Scanner;publicclassMain{publicstaticvoidmain(String[]args){Scannerscanner=newScanner(System.in);intcaseNumber=1;while(true){intx=scanner.nextInt();if(x==0){x++;System.out.println("Case"+caseNumber+":"+x);}else{System.out.println("Case"+caseNumber+":"+x);}}scanner.close();}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.TestBase.testCodeEqualWithoutWS(TestBase.java:293)
+	at org.example.styler.structure.StructureStylerTest.testRedudantCode(StructureStylerTest.java:72)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.StructureStylerTest.analyzeInconsistency_checkThenAssign_matchesGolden -- Time elapsed: 0.009 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <============================================================File:src\test\sources\structure\check_then_assign\f1.javaTotalInconsistencies:1============================================================[1]Type:STRUCTURAL_STYLEBeginLocation:line18,column2EndLocation:line21,column2Expected:inta=first>0?bInd:0;Actual:inta=0;if(first>0){a=bInd;}Message:Patternpreference'$M$T$I=$E?$E1:$E2;'> but was: <============================================================File:src\test\sources\structure\check_then_assign\f1.javaTotalInconsistencies:0============================================================>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.TestBase.testCodeEqualWithoutWS(TestBase.java:293)
+	at org.example.TestBase.assertAnalyzeInconsistencyMatchesGolden(TestBase.java:203)
+	at org.example.TestBase.assertAnalyzeInconsistencyMatchesGolden(TestBase.java:172)
+	at org.example.styler.structure.StructureStylerTest.analyzeInconsistency_checkThenAssign_matchesGolden(StructureStylerTest.java:285)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.StructureStylerTest.testCheckThenAssign -- Time elapsed: 0.009 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <//Seq=[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]importjava.io.*;importjava.lang.reflect.Array;importjava.util.*;publicclassE{staticlongcalc(List<Node>list,long[]b,inti){//bIndNodefirst=list.get(i);intbInd=(first.ind-1);if(bInd==-1){bInd=2;}inta=first>0?bInd:0;return0l;}}> but was: <//Seq=[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]importjava.io.*;importjava.lang.reflect.Array;importjava.util.*;publicclassE{staticlongcalc(List<Node>list,long[]b,inti){//bIndNodefirst=list.get(i);intbInd=(first.ind-1);if(bInd==-1){bInd=2;}inta=0;if(first>0){a=bInd;}return0l;}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.TestBase.testCodeEqualWithoutWS(TestBase.java:293)
+	at org.example.styler.structure.StructureStylerTest.testCheckThenAssign(StructureStylerTest.java:243)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.StructureStylerTest.analyzeInconsistency_if_matchesGolden -- Time elapsed: 0.028 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <============================================================File:src\test\sources\structure\if\f3.javaTotalInconsistencies:1============================================================[1]Type:STRUCTURAL_STYLEBeginLocation:line5,column2EndLocation:line8,column2Expected:if(score>=90){System.out.println("优秀");continue;}if(score>=80&&score<90){System.out.println("优秀");continue;}Actual:if(score>=90||score>=80&&score<90){System.out.println("优秀");continue;}Message:Patternpreference'if($E)$Sif($E1)$S1'> but was: <============================================================File:src\test\sources\structure\if\f3.javaTotalInconsistencies:0============================================================>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.TestBase.testCodeEqualWithoutWS(TestBase.java:293)
+	at org.example.TestBase.assertAnalyzeInconsistencyMatchesGolden(TestBase.java:203)
+	at org.example.TestBase.assertAnalyzeInconsistencyMatchesGolden(TestBase.java:172)
+	at org.example.styler.structure.StructureStylerTest.analyzeInconsistency_if_matchesGolden(StructureStylerTest.java:294)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.StructureStylerTest.extractStyle_assignment -- Time elapsed: 0.005 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <publicclassA{publicstaticvoidmain(String[]args){inta=1;a+=3;System.out.println(a);}}> but was: <publicclassA{publicstaticvoidmain(String[]args){inta=1;a=a+3;System.out.println(a);}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.TestBase.testCodeEqualWithoutWS(TestBase.java:293)
+	at org.example.styler.structure.StructureStylerTest.doTest(StructureStylerTest.java:258)
+	at org.example.styler.structure.StructureStylerTest.extractStyle_assignment(StructureStylerTest.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

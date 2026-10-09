@@ -1,0 +1,97 @@
+-------------------------------------------------------------------------------
+Test set: org.example.styler.format.space.SpaceStylerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.691 s <<< FAILURE! -- in org.example.styler.format.space.SpaceStylerTest
+org.example.styler.format.space.SpaceStylerTest.applyStyleCpp -- Time elapsed: 0.123 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <#include <iostream>
+#include <vector>
+#include <string>
+
+class Point {
+public:
+    int x, y;
+    Point( int x, int y ) : x( x ), y( y ) { }
+    void move( int dx, int dy ) {
+        x += dx;
+        y += dy;
+    }
+};
+
+template <typename T>
+T add( T a, T b ) {
+    return a + b;
+}
+
+int main() {
+    int a = 10, b = 20;
+    auto sum = add( a, b );
+
+    Point p( 1, 2 );
+    p.move( 3, 4 );
+
+    std::vector<int> nums = { 1, 2, 3, 4 };
+    for ( int i = 0; i < nums.size(); i++ ) {
+        std::cout << nums[ i ] << " ";
+    }
+
+    if ( sum > 20 ) {
+        std::cout << "big" << std::endl;
+    } else {
+        std::cout << "small" << std::endl;
+    }
+
+    return 0;
+}
+> but was: <#include<iostream>
+#include<vector>
+#include<string>
+
+//class Point{
+//public:
+//    int x,y;
+//    Point(int x,int y):x(x),y(y){}
+//    void move(int dx,int dy){
+//        x+=dx;
+//        y+=dy;
+//    }
+//};
+
+//template<typename T>
+//T add(T a,T b){
+//    return a+b;
+//}
+
+int main() {
+//    int a=10,b=20;
+//    auto sum=add(a,b);
+//
+//    Point p(1,2);
+//    p.move(3,4);
+
+    std::vector<int> nums={ 1, 2, 3, 4 };
+    for (int i=0; i<nums.size(); i++ ) {
+        std::cout<<nums[ i ]<<" ";
+    }
+
+//    if(sum>20){
+//        std::cout<<"big"<<std::endl;
+//    }else{
+//        std::cout<<"small"<<std::endl;
+//    }
+//
+//    return 0;
+}
+>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.TestBase.testCodeEqual(TestBase.java:277)
+	at org.example.styler.format.space.SpaceStylerTest.applyStyleCpp(SpaceStylerTest.java:86)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

@@ -1,0 +1,148 @@
+-------------------------------------------------------------------------------
+Test set: org.example.styler.format.newline.NewlineStylerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 2.125 s <<< FAILURE! -- in org.example.styler.format.newline.NewlineStylerTest
+org.example.styler.format.newline.NewlineStylerTest.testLineWrapping -- Time elapsed: 0.023 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <public class Main {
+	public static HeaderFileMetadata createFromFile(String headerPath) {
+		final List<Pattern> patterns = readerLines.stream()
+					.map(HeaderFileMetadata::createPatternFromLine).collect(Collectors.toUnmodifiableList());
+		String valueStr = item.getValue() instanceof Map && item.getName().endsWith("MEMORY-USAGE") 
+					? renderMemoryUsage((Map<String, Object>) item.getValue()) : renderItemValue(item.getValue());
+	}
+}
+> but was: <public class Main {
+		public static HeaderFileMetadata createFromFile(String headerPath) {
+				final List<Pattern> patterns = readerLines.stream().map(HeaderFileMetadata::createPatternFromLine).collect(Collectors.toUnmodifiableList());
+				String valueStr = item.getValue() instanceof Map && item.getName().endsWith("MEMORY-USAGE") 
+						? renderMemoryUsage((Map<String, Object>) item.getValue()) 
+						: renderItemValue(item.getValue());
+		}
+}
+>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.TestBase.testCodeEqual(TestBase.java:277)
+	at org.example.styler.format.newline.NewlineStylerTest.testLineWrapping(NewlineStylerTest.java:98)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.format.newline.NewlineStylerTest.testCombination -- Time elapsed: 0.449 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <  private void processRequest(int limitPerDay,String identifier,
+      Map<String, Bucket> buckets,HttpServletRequest request,
+      HttpServletResponse response,FilterChain filterChain)throws IOException, ServletException {
+    Bucket userBucket = buckets.computeIfAbsent(identifier, k -> createUserBucket(limitPerDay));
+    ConsumptionProbe probe = userBucket.tryConsumeAndReturnRemaining(1);
+    if (probe.isConsumed()) {
+      response.setHeader("X-Rate-Limit-Remaining",
+          filterChain.doFilter(request, response),stripNewlines(Newlines
+          .stripAll(Long.toString(probe.getRemainingTokens()))));
+    } else {
+      long waitForRefill = probe.getNanosToWaitForRefill() / 1_000_000_000;
+      response.setStatus(HttpStatus.TOO_MANY_REQUESTS.value());
+
+      response.setHeader("X-Rate-Limit-Retry-After-Seconds",Newlines.stripAll(String.valueOf(waitForRefill)));
+
+      response.getWriter().write("Rate limit exceeded for POST requests.");
+    }
+  }
+> but was: <  private void processRequest(int limitPerDay,String identifier,
+      Map<String, Bucket> buckets,HttpServletRequest request,
+      HttpServletResponse response,FilterChain filterChain)throws IOException, ServletException {
+    Bucket userBucket = buckets.computeIfAbsent(identifier, k -> createUserBucket(limitPerDay));
+    ConsumptionProbe probe = userBucket.tryConsumeAndReturnRemaining(1);
+    if (probe.isConsumed()) {
+      response.setHeader("X-Rate-Limit-Remaining",filterChain.doFilter(request, response),stripNewlines(Newlines.stripAll(Long.toString(probe.getRemainingTokens()))));
+    } else {
+      long waitForRefill = probe.getNanosToWaitForRefill() / 1_000_000_000;
+      response.setStatus(HttpStatus.TOO_MANY_REQUESTS.value());
+
+      response.setHeader("X-Rate-Limit-Retry-After-Seconds",Newlines.stripAll(String.valueOf(waitForRefill)));
+
+      response.getWriter().write("Rate limit exceeded for POST requests.");
+    }
+  }
+>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.TestBase.testCodeEqual(TestBase.java:277)
+	at org.example.styler.format.newline.NewlineStylerTest.testCombination(NewlineStylerTest.java:138)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.format.newline.NewlineStylerTest.testLambdaExp -- Time elapsed: 1.066 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <private void executeJob(QueuedJob job) {
+    if (job.cancelled) {
+        log.debug("Job {} was cancelled, not executing", job.jobId);
+        return;
+    }
+    jobExecutor.execute(
+    () -> {
+        log.debug("Executing queued job {} (queued at {})", job.jobId, job.queuedAt);
+
+        try {
+            // Execute with timeout
+            Object result = executeWithTimeout(job.work, job.timeoutMs);
+            // Process the result
+            if (result instanceof ResponseEntity) {
+                job.future.complete((ResponseEntity<?>) result);
+            } else {
+                job.future.complete(ResponseEntity.ok(result));
+            }
+        } catch (Exception e) {
+            log.error("Error executing queued job {}: {}", job.jobId, e.getMessage(), e);
+            job.future.completeExceptionally(e);
+        }
+    });
+}
+
+> but was: <private void executeJob(QueuedJob job) {
+    if (job.cancelled) {
+        log.debug("Job {} was cancelled, not executing", job.jobId);
+        return;
+    }
+    jobExecutor.execute(() -> {
+        log.debug("Executing queued job {} (queued at {})", job.jobId, job.queuedAt);
+
+        try {
+            // Execute with timeout
+            Object result = executeWithTimeout(job.work, job.timeoutMs);
+            // Process the result
+            if (result instanceof ResponseEntity) {
+                job.future.complete((ResponseEntity<?>) result);
+            } else {
+                job.future.complete(ResponseEntity.ok(result));
+            }
+        } catch (Exception e) {
+            log.error("Error executing queued job {}: {}", job.jobId, e.getMessage(), e);
+            job.future.completeExceptionally(e);
+        }
+    });
+}
+
+>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.TestBase.testCodeEqual(TestBase.java:277)
+	at org.example.styler.format.newline.NewlineStylerTest.testLambdaExp(NewlineStylerTest.java:176)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

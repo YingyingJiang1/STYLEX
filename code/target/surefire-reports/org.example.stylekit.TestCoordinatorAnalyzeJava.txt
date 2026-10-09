@@ -1,0 +1,73 @@
+-------------------------------------------------------------------------------
+Test set: org.example.stylekit.TestCoordinatorAnalyzeJava
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.51 s <<< FAILURE! -- in org.example.stylekit.TestCoordinatorAnalyzeJava
+org.example.stylekit.TestCoordinatorAnalyzeJava.testAnalyzeInconsistency_structurePreference_continuePreference -- Time elapsed: 1.445 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "============================================================
+File: src\test\sources\structure\continue\f2-gt.java
+Total Inconsistencies: 0
+============================================================
+"
+ but was: "============================================================
+File: src\test\sources\structure\continue\f2-gt.java
+Total Inconsistencies: 1
+============================================================
+[1] Type     : STRUCTURAL_STYLE
+BeginLocation : line 26, column 3
+EndLocation   : line 28, column 14
+Expected : 
+  if (i >= a && i >= b && i >= c) { 
+    mem[i] = Math.max(1 + mem[i - a], Math.max(1 + mem[i - b], 1 + mem[i - c]));
+  } else { 
+    if (i >= a && i >= b) { 
+      mem[i] = Math.max(1 + mem[i - a], 1 + mem[i - b]);
+      continue; 
+    }  
+
+    if (i >= c && i >= b) { 
+      mem[i] = Math.max(1 + mem[i - c], 1 + mem[i - b]);
+      continue; 
+    }  
+
+    if (i >= a && i >= c) { 
+      mem[i] = Math.max(1 + mem[i - a], 1 + mem[i - c]);
+      continue; 
+    }  
+
+    if (i >= a) { 
+      mem[i] = 1 + mem[i - a];
+      continue; 
+    }  
+
+    if (i >= b) { 
+      mem[i] = 1 + mem[i - b];
+      continue; 
+    }  
+
+    if (i >= c) mem[i] = 1 + mem[i - c];
+  }
+Actual   : 
+  if (i >= a && i >= b && i >= c) { 
+    mem[i] = Math.max(1 + mem[i - a], Math.max(1 + mem[i - b], 1 + mem[i - c]));
+    continue; 
+  }  
+
+  if (i >= a && i >= b) { 
+    mem[i] = Math.max(1 + mem[i - a], 1 + mem[i - b]);
+    continue; 
+  }
+Message  : Pattern preference 'if ( $E ) { $S+ } else { $S1+ }'
+
+"
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at org.example.stylekit.TestCoordinatorAnalyzeJava.doAnalyze(TestCoordinatorAnalyzeJava.java:181)
+	at org.example.stylekit.TestCoordinatorAnalyzeJava.testAnalyzeInconsistency_structurePreference_continuePreference(TestCoordinatorAnalyzeJava.java:90)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

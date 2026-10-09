@@ -1,0 +1,110 @@
+-------------------------------------------------------------------------------
+Test set: org.example.styler.structure.ContinueTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.069 s <<< FAILURE! -- in org.example.styler.structure.ContinueTest
+org.example.styler.structure.ContinueTest.testApplyStyle_continuePreference -- Time elapsed: 0.061 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+public class CutRibbon {
+
+	public static int [] mem;
+	public static int a,b,c;
+
+	public static void main(String[] args) {
+
+		Scanner s= new Scanner(new BufferedReader(new InputStreamReader(System.in)));
+		//BufferedReader n = new BufferedReader(new InputStreamReader(System.in));
+
+		int valor=s.nextInt();
+		a=s.nextInt();
+		b=s.nextInt();
+		c=s.nextInt();
+
+
+		mem=new int [4001];
+		for(int i=0;i<mem.length;i++){
+			mem[i]=-10000;
+		}
+		mem[0]=0;
+		for(int i = 1;i<mem.length;i++){
+			if ( i>=a && i>=b && i>=c) { mem[i]= Math.max(1+mem[i-a], Math.max(1+mem[i-b],1+mem[i-c]));
+			continue ; }  if ( i>=a && i>=b) { mem[i]= Math.max(1+mem[i-a],1+mem[i-b]);
+			continue ; }  if ( i>=c && i>=b) { mem[i]= Math.max(1+mem[i-c],1+mem[i-b]);
+			continue ; }  if ( i>=a && i>=c) { mem[i]= Math.max(1+mem[i-a],1+mem[i-c]);
+			continue ; }  if ( i>=a) { mem[i]= 1+mem[i-a];
+			continue ; }  if ( i>=b) { mem[i]= 1+mem[i-b];
+			continue ; }  if(i>=c)
+				mem[i]= 1+mem[i-c];
+		}
+		System.out.println(mem[valor]);
+
+	}
+
+}
+> but was: <import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+public class CutRibbon {
+
+	public static int [] mem;
+	public static int a,b,c;
+
+	public static void main(String[] args) {
+
+		Scanner s= new Scanner(new BufferedReader(new InputStreamReader(System.in)));
+		//BufferedReader n = new BufferedReader(new InputStreamReader(System.in));
+
+		int valor=s.nextInt();
+		a=s.nextInt();
+		b=s.nextInt();
+		c=s.nextInt();
+
+
+		mem=new int [4001];
+		for(int i=0;i<mem.length;i++){
+			mem[i]=-10000;
+		}
+		mem[0]=0;
+		for(int i = 1;i<mem.length;i++){
+			if(i>=a && i>=b && i>=c){
+				mem[i]= Math.max(1+mem[i-a], Math.max(1+mem[i-b],1+mem[i-c]));
+			}
+			else
+			if(i>=a && i>=b)
+				mem[i]= Math.max(1+mem[i-a],1+mem[i-b]);
+			else
+			if(i>=c && i>=b)
+				mem[i]= Math.max(1+mem[i-c],1+mem[i-b]);
+			else
+			if(i>=a && i>=c)
+				mem[i]= Math.max(1+mem[i-a],1+mem[i-c]);
+			else
+			if(i>=a)
+				mem[i]= 1+mem[i-a];
+			else
+			if(i>=b)
+				mem[i]= 1+mem[i-b];
+			else
+			if(i>=c)
+				mem[i]= 1+mem[i-c];
+		}
+		System.out.println(mem[valor]);
+
+	}
+
+}
+>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.TestBase.testCodeEqual(TestBase.java:277)
+	at org.example.styler.structure.ContinueTest.testApplyStyle_continuePreference(ContinueTest.java:58)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

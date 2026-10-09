@@ -1,0 +1,66 @@
+-------------------------------------------------------------------------------
+Test set: org.example.styler.structure.CheckThenAssignTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.645 s <<< FAILURE! -- in org.example.styler.structure.CheckThenAssignTest
+org.example.styler.structure.CheckThenAssignTest.test -- Time elapsed: 0.011 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <// Seq=[-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+
+import java.io.*;
+import java.lang.reflect.Array;
+import java.util.*;
+
+public class E {
+	static long calc(List<Node> list,long[] b,int i)
+	{
+		//bInd
+		Node first = list.get(i);
+		int bInd = (first.ind - 1);
+		if(bInd==-1)
+		{
+			bInd=2;
+		}
+
+		int a = first > 0? bInd: 0; return 0l;
+	}
+
+}
+> but was: <// Seq=[-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+
+import java.io.*;
+import java.lang.reflect.Array;
+import java.util.*;
+
+public class E {
+	static long calc(List<Node> list,long[] b,int i)
+	{
+		//bInd
+		Node first = list.get(i);
+		int bInd = (first.ind - 1);
+		if(bInd==-1)
+		{
+			bInd=2;
+		}
+
+		int a = 0;
+		if (first > 0) {
+			a = bInd;
+		}
+
+		return 0l;
+	}
+
+}
+>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.TestBase.testCodeEqual(TestBase.java:277)
+	at org.example.styler.structure.CheckThenAssignTest.test(CheckThenAssignTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

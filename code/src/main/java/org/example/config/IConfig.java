@@ -1,0 +1,35 @@
+package org.example.config;
+
+import org.example.style.StylerContainer;
+
+import java.util.List;
+
+public interface IConfig {
+	Class<?> getMyParserClass(String lang);
+
+	Class<?> getTreeNodeFactoryClass(String lang);
+
+	Class<?> getASTRewriterClass(String lang);
+
+	String getEquivalencesConfig(String lang);
+
+	Class<?> getNodeSearcherFactory(String lang);
+
+	String getLLMUrl();
+	String getLLMApiKey();
+	String getLLMModel();
+	double getLLMTemperature();
+	double getLLMMaxTokens();
+
+	MyConfiguration.ProjectConfig getProjectConfig();
+
+
+
+	Class<?> getPlaceholderParser(String lang);
+
+	Class<?> getSymbolResolver(String lang);
+
+	Class<?> getTypeResolver(String lang);
+
+	Class<?> getASTNodeSearcher(String lang);
+}

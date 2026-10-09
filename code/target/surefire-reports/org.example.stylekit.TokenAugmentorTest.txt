@@ -1,0 +1,100 @@
+-------------------------------------------------------------------------------
+Test set: org.example.stylekit.TokenAugmentorTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.262 s <<< FAILURE! -- in org.example.stylekit.TokenAugmentorTest
+org.example.stylekit.TokenAugmentorTest.process -- Time elapsed: 0.206 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <import java.util.Scanner;
+
+	public class PrimeCounter {
+		// Function to check if a number is prime
+		public static boolean isPrime(long n) {
+			// If number is less than 2, it's not prime
+			if (n < 2) return false;
+
+			// Check for divisibility up to square root of n
+			for (long i = 2; i * i <= n; i++) {
+				if (n % i == 0) {
+					return false;
+				}
+			}
+			return true;
+		}
+
+		public static void main(String[] args) {
+			Scanner scanner = new Scanner(System.in);
+
+			// Read the number of elements
+			int N = scanner.nextInt();
+
+			// Counter for prime numbers
+			int primeCount = 0;
+
+			// Read N numbers and count primes
+			for (int i = 0; i < N; i++) {
+				long num = scanner.nextLong();
+				if (isPrime(num)) {
+					primeCount++;
+				} else {
+					System.out.println(primeCount);
+				}
+			}
+
+			// Print the result
+			System.out.println(primeCount);
+
+			scanner.close();
+		}
+	}> but was: <import java.util.Scanner;
+
+	public class PrimeCounter {
+		// Function to check if a number is prime
+		public static boolean isPrime(long n) {
+			// If number is less than 2, it's not prime
+			if (n < 2) return false;
+
+			// Check for divisibility up to square root of n
+			for (long i = 2; i * i <= n; i++) {
+				if (n % i == 0) {
+					return false;
+				}
+			}
+			return true;
+		}
+
+		public static void main(String[] args) {
+			Scanner scanner = new Scanner(System.in);
+
+			// Read the number of elements
+			int N = scanner.nextInt();
+
+			// Counter for prime numbers
+			int primeCount = 0;
+
+			// Read N numbers and count primes
+			for (int i = 0; i < N; i++) {
+				long num = scanner.nextLong();
+				if (isPrime(num)) {
+					primeCount++;
+				} else {
+					System.out.println(primeCount);
+				}
+			}
+
+			// Print the result
+			System.out.println(primeCount);
+
+			scanner.close();
+		}
+	}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.example.stylekit.TokenAugmentorTest.process(TokenAugmentorTest.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

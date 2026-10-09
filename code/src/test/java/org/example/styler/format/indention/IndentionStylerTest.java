@@ -1,0 +1,89 @@
+package org.example.styler.format.indention;
+
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.List;
+
+import org.example.Main;
+import org.example.TestBase;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest(classes = Main.class)
+class IndentionStylerTest extends TestBase {
+
+	@Test
+	void analyzeInconsistency_matchesGolden() {
+		String dir = Paths.get(javaTestCasesDir, "format", "indention").toString();
+		assertAnalyzeInconsistencyMatchesGolden(dir,
+				new String[] {"f1.java", "f2.java", "f1-gt.java"},
+				new String[] {"f2.java", "f3.java", "f2.java"},
+				List.of(IndentionStyler.class));
+	}
+
+	@Test
+	void testJava() {
+		String dir = "src/test/sources/format/indention/";
+		String[] srcFiles = {
+				"f1.java",
+				"f2.java",
+				"f3.java",
+				"f4.java",
+		};
+
+		String[] targetFiles = {
+				"f2.java",
+				"f3.java",
+				"f4.java",
+				"f1.java",
+		};
+
+		for (int i = 0; i < srcFiles.length; i++) {
+			Path gtPath = Paths.get(dir, String.format("%s-gt.java", srcFiles[i].replace(".java", "")));
+			String actual = apply(Paths.get(dir, srcFiles[i]), Paths.get(dir, targetFiles[i]), "java", List.of(IndentionStyler.class));
+			if (false) {
+				try{
+					Files.writeString(gtPath, actual);
+				}	catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+
+			testCodeEqual(actual, gtPath);
+//			break;
+		}
+	}
+
+	@Test
+	void testCpp() {
+		String dir = "src/test/sources-cpp/indention/";
+		String[] srcFiles = {
+				"f1.cpp",
+				"f2.cpp",
+				"f3.cpp",
+				"f3.cpp"
+		};
+
+		String[] targetFiles = {
+				"f2.cpp",
+				"f1.cpp",
+				"f1.cpp",
+				"f2.cpp"
+		};
+
+		for (int i = 0; i < srcFiles.length; i++) {
+			Path gtPath = Paths.get(dir, String.format("%sto%sgt.cpp", srcFiles[i].replace(".cpp", ""), targetFiles[i].replace(".cpp", "")));
+			String actual = apply(Paths.get(dir, srcFiles[i]), Paths.get(dir, targetFiles[i]), "cpp", List.of(IndentionStyler.class));
+			if (false) {
+				try {
+					Files.writeString(gtPath, actual);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+
+			testCodeEqual(actual, gtPath);
+		}
+	}
+}

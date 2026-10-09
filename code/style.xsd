@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        elementFormDefault="qualified"
+        attributeFormDefault="unqualified">
+
+    <!-- ========== 基础枚举/类型 ========== -->
+    <xs:simpleType name="StyleName">
+        <xs:restriction base="xs:string">
+            <!-- Format -->
+            <xs:enumeration value="newline"/>
+            <xs:enumeration value="space"/>
+            <xs:enumeration value="indention"/>
+            <xs:enumeration value="intra_newline"/>
+            <xs:enumeration value="inter_newline"/>
+            <xs:enumeration value="body_layout"/>
+
+            <!-- Structure -->
+
+            <xs:enumeration value="optional_brace"/>
+            <xs:enumeration value="modifier_order"/>
+            <xs:enumeration value="declaration_layout"/>
+            <xs:enumeration value="declaration_location"/>
+            <xs:enumeration value="structure_preference"/>
+
+            <!-- Semantic -->
+            <xs:enumeration value="naming_format"/>
+            <xs:enumeration value="expression_complexity"/>
+            <xs:enumeration value="if_else_body_order"/>
+
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <!-- ========== 根元素 ========== -->
+    <xs:element name="program_style">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="style" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:choice>
+                            <xs:element name="rule" type="SpaceRule"/>
+                            <xs:element name="rule" type="IndentionRule"/>
+                        </xs:choice>
+                        <xs:attribute name="name" type="StyleName" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <!-- Space -->
+    <xs:complexType name="SpaceRule">
+        <xs:all>
+            <xs:element name="style_context" type="SpaceContext"/>
+            <xs:element name="style_property" type="SpaceProperty"/>
+        </xs:all>
+    </xs:complexType>
+    <xs:complexType name="SpaceContext">
+        <xs:attribute name="tokens" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="SpaceProperty">
+        <xs:attribute name="space1" type="xs:boolean" />
+        <xs:attribute name="space2" type="xs:boolean"/>
+    </xs:complexType>
+
+    <!-- Indention -->
+    <xs:complexType name="IndentionRule">
+        <xs:all>
+            <xs:element name="style_context" type="SpaceContext"/>
+            <xs:element name="style_property" type="SpaceProperty"/>
+        </xs:all>
+    </xs:complexType>
+    <xs:complexType name="IndentionProperty">
+        <xs:attribute name="indentionUnit" type="xs:int" />
+        <xs:attribute name="indentionType">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="\t" />
+                    <xs:enumeration value=" " />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="indentEmptyLine" type="xs:boolean" />
+        <xs:attribute name="topHierarchyIndention" type="xs:int" />
+    </xs:complexType>
+
+    <!-- Newline -->
+    <xs:complexType name="NewlineContext">
+        <!-- Two adjacent node names in horizontal direction, split by ','. -->
+        <xs:attribute name="nodeTypes" type="xs:string"/>
+        <!-- Whether it is an inner node, split by ','. -->
+        <xs:attribute name="isAstNode" type="xs:string"/>
+        <!-- Text lengths of nodes, split by ','. -->
+        <xs:attribute name="lengths" type="xs:string"/>
+    </xs:complexType>
+    <xs:complexType name="NewlineProperty">
+        <xs:attribute name="newlines" type="xs:nonNegativeInteger"/>
+    </xs:complexType>
+
+    <!-- intra-newline -->
+    <xs:complexType name="IntraNewlineContext">
+        <!-- Text length of AST node -->
+        <xs:attribute name="length" type="xs:double"/>
+    </xs:complexType>
+    <xs:complexType name="IntraNewlineProperty">
+        <!-- The number of newline(0: no newline, >=1: has a newline). -->
+        <xs:attribute name="newlines" type="xs:nonNegativeInteger"/>
+        <!-- The indentation string of the current line relative to the previous line.
+        Currently, only a single-element list is supported, which represents the indentation string of the succeeding line relative to the starting line.  -->
+        <xs:attribute name="relativeIndention" type="StringList"/>
+        <!-- Average text length of wrapped lines -->
+        <xs:attribute name="length" type="xs:double"/>
+        <!-- Minimum text length of wrapped lines -->
+        <xs:attribute name="minLen" type="xs:double"/>
+    </xs:complexType>
+
+    <!-- inter-newline: a patch for improving newline -->
+    <xs:complexType name="InterNewlineProperty">
+        <!-- Whether it has a newline after simple statement or import -->
+        <xs:attribute name="hasNewline" type="xs:boolean"/>
+    </xs:complexType>
+
+    <!-- body layout -->
+    <xs:complexType name="BodyContext">
+        <xs:attribute name="bodyType" type="BodyTypeType"/>
+        <xs:attribute name="bodySize" type="BodySizeType"/>
+        <xs:attribute name="hasLeftNeighbour" type="xs:boolean"/>
+        <xs:attribute name="hasRightNeighbour" type="xs:boolean"/>
+        <xs:attribute name="hasBrace" type="xs:boolean"/>
+    </xs:complexType>
+    <xs:complexType name="BodyLayoutProperty">
+        <!--  If {} is missing, only `beforeLB` is meaningful. -->
+        <xs:attribute name="beforeLB" type="xs:boolean"/>
+        <!-- Uncomment this attr in addElement and parseElement. -->
+        <xs:attribute name="afterLB" type="xs:boolean"/>
+        <xs:attribute name="afterRB" type="xs:boolean"/>
+    </xs:complexType>
+
+    <!-- Optional Brace -->
+    <xs:simpleType name="BodyTypeType">
+        <xs:restriction base="xs:string">
+            <!-- Body of type declaration or method declaration.-->
+            <xs:enumeration value="DEC_BODY"/>
+            <!-- array initializer -->
+            <xs:enumeration value="ARRAY_INITIALIZER_BODY"/>
+            <xs:enumeration value="STMT_BODY"/>
+            <!--  Match any type of bodies -->
+            <xs:enumeration value="ANY_BODY"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="BodySizeType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="EMPTY"/>
+            <!-- one single statement -->
+            <xs:enumeration value="ONE_SINGLE_STMT"/>
+            <xs:enumeration value="ONE_COMPOUND_STMT"/>
+            <xs:enumeration value="MULTI_STMTS"/>
+            <!-- relevant to array initializer -->
+            <xs:enumeration value="ONE_INITIALIZER"/>
+            <xs:enumeration value="MULTI_INITIALIZER"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="OptionalBraceContext">
+        <xs:attribute name="bodyType" type="BodyTypeType"/>
+        <xs:attribute name="bodySize" type="BodySizeType"/>
+    </xs:complexType>
+    <xs:complexType name="OptionalBraceProperty">
+        <xs:attribute name="useBrace" type="xs:boolean" />
+    </xs:complexType>
+
+    <!-- Modifier Order -->
+    <xs:complexType name="ModifierOrderProperty">
+        <!-- value of order are java modifiers split by comma. Use ACCESS_CONTROL to substitute public,private and protected. -->
+        <xs:attribute name="order" type="xs:string" />
+    </xs:complexType>
+
+    <!-- Declaration Location -->
+    <xs:complexType name="DeclarationLocationProperty">
+        <xs:attribute name="avgLineDis2firstUse" type="xs:nonNegativeInteger" />
+        <xs:attribute name="location">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="NEAR_USE"/>
+                    <xs:enumeration value="BLOCK_START"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
+    <!-- Declaration Layout -->
+    <xs:complexType name="DeclarationLayoutProperty">
+        <xs:attribute name="mergeVar" type="xs:boolean" />
+    </xs:complexType>
+
+    <!-- Structure preference -->
+    <xs:complexType name="StructurePreferenceContext">
+        <xs:attribute name="id" type="xs:int" />
+        <xs:attribute name="category" type="xs:string" use="optional" />
+    </xs:complexType>
+    <xs:complexType name="StructurePreferenceCProperty">
+        <xs:attribute name="preferenceIndex" type="xs:int" />
+    </xs:complexType>
+
+    <!-- Naming -->
+    <xs:complexType name="NamingContext">
+        <xs:attribute name="nameType" >
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="FIELD" />
+                    <xs:enumeration value="METHOD" />
+                    <xs:enumeration value="CONSTRUCTOR" />
+                    <xs:enumeration value="TYPE" />
+                    <xs:enumeration value="ENUM_CONSTANT" />
+                    <xs:enumeration value="PARAMETER" />
+                    <xs:enumeration value="TYPE_PARAMETER" />
+                    <xs:enumeration value="LOCAL_VARIABLE" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="attrs" use="optional" >
+            <xs:simpleType>
+                <xs:list>
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="EXPLICIT_CONST"/>
+                            <xs:enumeration value="IMPLICIT_CONST"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:list>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="NamingProperty">
+        <xs:attribute name="startsWithUnderScore" type="xs:boolean" />
+        <xs:attribute name="caseFormat" >
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="UPPER_UNDERSCORE"/>
+                    <xs:enumeration value="LOWER_UNDERSCORE"/>
+                    <xs:enumeration value="UPPER_CAMEL"/>
+                    <xs:enumeration value="LOWER_CAMEL"/>
+                    <xs:enumeration value="ALL_UPPER_CASE"/>
+                    <xs:enumeration value="ALL_LOWER_CASE"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="maxLength" type="xs:int" />
+    </xs:complexType>
+
+    <!-- Expression Complexity -->
+    <xs:complexType name="ComplexityType">
+        <xs:attribute name="depth" type="xs:int"/>
+    </xs:complexType>
+    <xs:complexType name="ExpComplexityContext">
+        <xs:attribute name="expType">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="CONDITIONAL_EXP"/>
+                    <xs:enumeration value="TERNARY_EXP"/>
+                    <xs:enumeration value="RVALUE_EXP"/>
+                    <xs:enumeration value="INITIALIZER_EXP"/>
+                    <xs:enumeration value="TOP_EXP"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="ExpComplexityProperty">
+        <xs:attribute name="maxComplexity" type="ComplexityType"/>
+        <xs:attribute name="avgComplexity" type="ComplexityType"/>
+    </xs:complexType>
+
+    <!-- If-else body order -->
+    <xs:complexType name="IfElseBodyOrderProperty">
+        <xs:attribute name="shortBodyComesFirst" type="xs:boolean"/>
+    </xs:complexType>
+
+    <xs:simpleType name="StringList">
+        <xs:list itemType="xs:string"/>
+    </xs:simpleType>
+
+</xs:schema>

@@ -1,0 +1,280 @@
+-------------------------------------------------------------------------------
+Test set: org.example.styler.structure.CppEquivalentStructureAllRulesTest
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 23, Errors: 0, Skipped: 0, Time elapsed: 4.382 s <<< FAILURE! -- in org.example.styler.structure.CppEquivalentStructureAllRulesTest
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.240 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Match failed for rule id=1, index=0 using code: E ++ ;  ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:82)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.013 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Match failed for rule id=2, index=0 using code: E -- ;  ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:82)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.008 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: No statement-like start node found (rule id=3, index=0) ==> expected: not <null>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:49)
+	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:35)
+	at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:312)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:79)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.032 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Match failed for rule id=4, index=0 using code: if ( E && E1 ) RV=LV;  ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:82)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.018 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Match failed for rule id=5, index=0 using code: if ( E || E1 ) RV=LV;  ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:82)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.012 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Match failed for rule id=6, index=0 using code: for ( ; ; ) RV=LV;  ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:82)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.026 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Match failed for rule id=7, index=0 using code: for ( ; E ; ) RV=LV;  ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:82)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.032 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Match failed for rule id=8, index=0 using code: for ( I=0,J=1 ; E1 ; ) RV=LV;  ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:82)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.034 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Match failed for rule id=9, index=0 using code: for ( int VAR ; E ; ) RV=LV;  ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:82)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.017 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Match failed for rule id=10, index=0 using code: for ( ; E1 ; I=0,J=1 ) { RV=LV; }  ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:82)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.017 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Match failed for rule id=11, index=0 using code: for ( I=0,J=1 ; E1 ; I1=0,J1=1 ) { RV=LV; }  ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:82)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.024 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Match failed for rule id=12, index=0 using code: for ( int VAR ; E1 ; I=0,J=1 ) { RV=LV; }  ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:82)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.020 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Match failed for rule id=13, index=0 using code: return E ? E1 : E2 ;  ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:82)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.044 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Match failed for rule id=14, index=0 using code: {  T I = E2 ; if ( E ) { E3 = E1 ; } } ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:82)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.027 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Match failed for rule id=15, index=0 using code: { E = E3 ; if ( E1 ) { E4 = E2 ; } } ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:82)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.029 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: No statement-like start node found (rule id=16, index=0) ==> expected: not <null>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:49)
+	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:35)
+	at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:312)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:79)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: No statement-like start node found (rule id=17, index=0) ==> expected: not <null>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:49)
+	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:35)
+	at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:312)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:79)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.008 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: No statement-like start node found (rule id=18, index=0) ==> expected: not <null>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:49)
+	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:35)
+	at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:312)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:79)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.006 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: No statement-like start node found (rule id=19, index=0) ==> expected: not <null>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:49)
+	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:35)
+	at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:312)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:79)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.019 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Match failed for rule id=22, index=0 using code: { if ( E ) { continue ; }  RV=LV; } ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:82)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.033 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Match failed for rule id=23, index=0 using code: { if ( E ) { RV=LV; continue ; }  RV1=LV1; } ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:82)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.036 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Match failed for rule id=24, index=1 using code: if ( E ) { RV=LV; } else { RV1=LV1; }  ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:82)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.example.styler.structure.CppEquivalentStructureAllRulesTest.allCppRulesCompileAndMatch -- Time elapsed: 0.051 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Match failed for rule id=25, index=1 using code: if ( E ) { RV=LV; } else { RV1=LV1; }  ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example.styler.structure.CppEquivalentStructureAllRulesTest.lambda$allCppRulesCompileAndMatch$0(CppEquivalentStructureAllRulesTest.java:82)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

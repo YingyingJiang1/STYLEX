@@ -1,0 +1,687 @@
+2026-05-11 22:24:53,258 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:24:53,527 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:24:54,127 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 948 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:24:54,129 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:24:57,199 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 3.528 seconds (process running for 5.021)
+2026-05-11 22:24:58,153 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:24:58,183 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:24:58,186 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\arrangement\modifier\style.xml
+2026-05-11 22:24:58,375 INFO  --- [main] org.example.TestBase.testCodeEqual/271 : Compare `src\test\sources\arrangement\modifier\f1-gt.java`...
+2026-05-11 22:24:58,431 INFO  --- [main] org.example.TestBase.testCodeEqual/282 : Compare `src\test\sources\arrangement\modifier\f1-gt.java`...OK
+2026-05-11 22:25:40,215 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:25:40,435 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:25:40,985 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 17796 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:25:40,987 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:25:44,241 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 3.691 seconds (process running for 4.942)
+2026-05-11 22:25:45,256 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:25:45,291 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:25:45,588 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:25:45,591 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:25:45,708 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:25:45,714 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:25:45,757 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\arrangement\modifier\style.xml
+2026-05-11 22:25:45,769 INFO  --- [main] org.example.TestBase.testCodeEqual/271 : Compare `src\test\sources\arrangement\modifier\f1-gt.java`...
+2026-05-11 22:25:45,771 INFO  --- [main] org.example.TestBase.testCodeEqual/282 : Compare `src\test\sources\arrangement\modifier\f1-gt.java`...OK
+2026-05-11 22:25:45,773 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:25:45,777 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:25:45,780 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\arrangement\modifier\style.xml
+2026-05-11 22:25:45,797 INFO  --- [main] org.example.TestBase.testCodeEqual/271 : Compare `src\test\sources\arrangement\modifier\f2-gt.java`...
+2026-05-11 22:25:45,799 INFO  --- [main] org.example.TestBase.testCodeEqual/282 : Compare `src\test\sources\arrangement\modifier\f2-gt.java`...OK
+2026-05-11 22:26:45,006 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:26:45,362 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:26:46,114 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 9780 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:26:46,117 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:26:49,519 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 3.943 seconds (process running for 5.923)
+2026-05-11 22:26:50,614 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:26:50,654 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:26:50,931 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:26:50,936 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:26:50,952 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:26:50,960 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:27:27,850 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:27:28,035 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:27:28,509 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 22676 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:27:28,513 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:27:32,347 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 4.196 seconds (process running for 5.502)
+2026-05-11 22:27:33,253 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:27:33,281 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:27:33,503 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:27:33,510 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:27:33,522 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:27:33,526 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:27:33,547 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:27:33,552 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:27:33,667 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:27:33,672 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:27:33,720 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\arrangement\modifier\style.xml
+2026-05-11 22:27:33,733 INFO  --- [main] org.example.TestBase.testCodeEqual/271 : Compare `src\test\sources\arrangement\modifier\f1-gt.java`...
+2026-05-11 22:27:33,735 INFO  --- [main] org.example.TestBase.testCodeEqual/282 : Compare `src\test\sources\arrangement\modifier\f1-gt.java`...OK
+2026-05-11 22:27:33,738 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:27:33,743 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:27:33,746 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\arrangement\modifier\style.xml
+2026-05-11 22:27:33,757 INFO  --- [main] org.example.TestBase.testCodeEqual/271 : Compare `src\test\sources\arrangement\modifier\f2-gt.java`...
+2026-05-11 22:27:33,759 INFO  --- [main] org.example.TestBase.testCodeEqual/282 : Compare `src\test\sources\arrangement\modifier\f2-gt.java`...OK
+2026-05-11 22:28:25,913 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:28:26,140 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:28:26,790 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 588 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:28:26,796 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:28:30,100 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 3.761 seconds (process running for 5.185)
+2026-05-11 22:28:30,953 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:28:30,989 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:28:31,248 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:28:31,253 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:28:31,269 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:28:31,274 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:28:31,417 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:28:31,422 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:28:31,464 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\arrangement\modifier\style.xml
+2026-05-11 22:28:31,481 INFO  --- [main] org.example.TestBase.testCodeEqual/271 : Compare `src\test\sources\arrangement\modifier\f1-gt.java`...
+2026-05-11 22:28:31,484 INFO  --- [main] org.example.TestBase.testCodeEqual/282 : Compare `src\test\sources\arrangement\modifier\f1-gt.java`...OK
+2026-05-11 22:28:31,491 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:28:31,495 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:28:31,498 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\arrangement\modifier\style.xml
+2026-05-11 22:28:31,505 INFO  --- [main] org.example.TestBase.testCodeEqual/271 : Compare `src\test\sources\arrangement\modifier\f2-gt.java`...
+2026-05-11 22:29:20,544 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:29:20,852 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:29:21,453 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 10324 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:29:21,457 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:29:24,780 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 3.758 seconds (process running for 5.272)
+2026-05-11 22:29:25,739 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:29:25,771 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:29:26,053 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:29:26,058 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:29:26,067 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:29:26,070 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:29:26,111 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:29:26,116 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:29:26,268 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:29:26,276 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:29:26,360 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\arrangement\modifier\style.xml
+2026-05-11 22:29:26,373 INFO  --- [main] org.example.TestBase.testCodeEqual/271 : Compare `src\test\sources\arrangement\modifier\f1-gt.java`...
+2026-05-11 22:29:26,375 INFO  --- [main] org.example.TestBase.testCodeEqual/282 : Compare `src\test\sources\arrangement\modifier\f1-gt.java`...OK
+2026-05-11 22:29:26,379 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:29:26,385 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:29:26,391 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\arrangement\modifier\style.xml
+2026-05-11 22:29:26,401 INFO  --- [main] org.example.TestBase.testCodeEqual/271 : Compare `src\test\sources\arrangement\modifier\f2-gt.java`...
+2026-05-11 22:29:26,404 INFO  --- [main] org.example.TestBase.testCodeEqual/282 : Compare `src\test\sources\arrangement\modifier\f2-gt.java`...OK
+2026-05-11 22:30:40,825 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:30:41,066 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:30:41,727 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 33388 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:30:41,734 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:30:45,817 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 4.61 seconds (process running for 6.226)
+2026-05-11 22:30:46,971 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:30:47,002 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:30:47,008 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\arrangement\modifier\style.xml
+2026-05-11 22:30:47,328 INFO  --- [main] org.example.TestBase.testCodeEqual/271 : Compare `src\test\sources\arrangement\modifier\f2-gt.java`...
+2026-05-11 22:30:47,457 INFO  --- [main] org.example.TestBase.testCodeEqual/282 : Compare `src\test\sources\arrangement\modifier\f2-gt.java`...OK
+2026-05-11 22:34:46,239 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:34:46,534 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:34:47,216 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 26904 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:34:47,219 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:34:52,808 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 6.061 seconds (process running for 7.876)
+2026-05-11 22:34:53,995 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:34:54,224 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:34:54,673 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 24480 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:34:54,675 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:34:55,066 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:34:55,202 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:34:55,758 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:34:55,767 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:34:55,797 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:34:55,807 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:34:56,030 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:34:56,038 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:34:56,243 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:34:56,266 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:34:56,304 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:34:56,317 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:34:56,446 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\arrangement\modifier\style.xml
+2026-05-11 22:34:56,504 INFO  --- [main] org.example.TestBase.testCodeEqual/271 : Compare `src\test\sources\arrangement\modifier\f1-gt.java`...
+2026-05-11 22:34:56,509 INFO  --- [main] org.example.TestBase.testCodeEqual/282 : Compare `src\test\sources\arrangement\modifier\f1-gt.java`...OK
+2026-05-11 22:34:56,614 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:34:56,667 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 2.32 seconds (process running for 3.965)
+2026-05-11 22:34:56,666 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:34:56,732 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\arrangement\modifier\style.xml
+2026-05-11 22:34:56,823 INFO  --- [main] org.example.TestBase.testCodeEqual/271 : Compare `src\test\sources\arrangement\modifier\f2-gt.java`...
+2026-05-11 22:34:56,836 INFO  --- [main] org.example.TestBase.testCodeEqual/282 : Compare `src\test\sources\arrangement\modifier\f2-gt.java`...OK
+2026-05-11 22:34:57,536 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:34:57,565 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:34:57,571 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\arrangement\modifier\style.xml
+2026-05-11 22:34:57,801 INFO  --- [main] org.example.TestBase.testCodeEqual/271 : Compare `src\test\sources\arrangement\modifier\f2-gt.java`...
+2026-05-11 22:34:57,862 INFO  --- [main] org.example.TestBase.testCodeEqual/282 : Compare `src\test\sources\arrangement\modifier\f2-gt.java`...OK
+2026-05-11 22:36:44,539 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:36:44,835 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:36:45,361 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 14972 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:36:45,362 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:36:48,323 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 3.31 seconds (process running for 5.021)
+2026-05-11 22:36:49,335 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:36:49,367 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:36:49,373 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\arrangement\modifier\style.xml
+2026-05-11 22:36:49,653 INFO  --- [main] org.example.TestBase.testCodeEqual/271 : Compare `src\test\sources\arrangement\modifier\f2-gt.java`...
+2026-05-11 22:36:49,704 INFO  --- [main] org.example.TestBase.testCodeEqual/282 : Compare `src\test\sources\arrangement\modifier\f2-gt.java`...OK
+2026-05-11 22:36:59,380 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:36:59,627 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:37:00,194 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 3860 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:37:00,195 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:37:03,167 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 3.38 seconds (process running for 5.038)
+2026-05-11 22:37:04,271 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:37:04,315 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:37:04,322 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\arrangement\modifier\style.xml
+2026-05-11 22:37:04,584 INFO  --- [main] org.example.TestBase.testCodeEqual/271 : Compare `src\test\sources\arrangement\modifier\f2-gt.java`...
+2026-05-11 22:38:27,839 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:38:28,127 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:38:28,724 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 22492 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:38:28,725 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:38:32,476 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 4.078 seconds (process running for 5.852)
+2026-05-11 22:38:33,873 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:38:33,922 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:38:34,207 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:38:34,212 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:38:34,224 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:38:34,227 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:38:55,594 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:38:55,949 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:38:56,615 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 13300 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:38:56,621 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:39:00,312 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 4.098 seconds (process running for 6.029)
+2026-05-11 22:39:01,438 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:39:01,504 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:39:01,770 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:39:01,773 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:39:01,782 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:39:01,786 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:39:24,877 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:39:25,119 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:39:25,683 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 3224 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:39:25,684 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:39:29,137 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 3.837 seconds (process running for 5.451)
+2026-05-11 22:39:30,411 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:39:30,458 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:39:30,759 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:39:30,766 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:39:30,779 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:39:30,783 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:39:54,641 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:39:54,894 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:39:55,430 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 33364 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:39:55,431 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:39:59,323 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 4.241 seconds (process running for 5.904)
+2026-05-11 22:40:00,502 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:40:00,558 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:40:00,852 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:40:00,856 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:40:00,870 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:40:00,874 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:42:56,686 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:42:57,044 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:42:57,786 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 5260 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:42:57,788 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:43:01,611 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 4.26 seconds (process running for 7.093)
+2026-05-11 22:43:02,802 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:43:02,845 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:43:06,948 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:43:06,954 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:43:06,978 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:43:06,991 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:44:54,916 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:44:54,922 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:49:16,481 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:49:16,773 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:49:17,379 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 3684 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:49:17,380 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:49:20,359 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 3.31 seconds (process running for 5.076)
+2026-05-11 22:49:21,629 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:49:21,668 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:49:21,937 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:49:21,941 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:49:21,951 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:49:21,956 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:51:06,924 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:51:07,190 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:51:07,740 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 17436 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:51:07,742 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:51:10,455 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 3.017 seconds (process running for 4.892)
+2026-05-11 22:51:11,542 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:51:11,574 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:51:11,860 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:51:11,865 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:51:11,878 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:51:11,884 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:51:28,627 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:51:28,983 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:51:29,578 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 30900 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:51:29,581 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:51:32,789 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 3.577 seconds (process running for 5.593)
+2026-05-11 22:51:33,944 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:51:33,982 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:51:34,217 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:51:34,222 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:51:34,234 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:51:34,239 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:51:59,181 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:51:59,447 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:52:00,078 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 14040 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:52:00,080 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:52:02,903 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 3.184 seconds (process running for 4.905)
+2026-05-11 22:52:03,955 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:52:04,002 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:52:04,243 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:52:04,248 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:52:04,259 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:52:04,264 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:52:04,311 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:52:04,315 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:52:13,634 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:52:13,922 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:52:14,490 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 948 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:52:14,492 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:52:17,405 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 3.264 seconds (process running for 4.935)
+2026-05-11 22:52:18,495 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:52:18,808 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:52:54,071 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:52:54,398 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:52:55,108 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 32340 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:52:55,110 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:52:57,933 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 3.239 seconds (process running for 5.159)
+2026-05-11 22:52:59,174 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:52:59,408 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:53:47,173 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.arrangement.modifier.ModifierOrderStylerTest]: ModifierOrderStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 22:53:47,423 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.arrangement.modifier.ModifierOrderStylerTest
+2026-05-11 22:53:47,900 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting ModifierOrderStylerTest using Java 17.0.11 with PID 6596 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 22:53:47,902 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 22:53:50,654 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started ModifierOrderStylerTest in 3.067 seconds (process running for 4.633)
+2026-05-11 22:53:51,715 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:53:51,772 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:53:52,022 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:53:52,025 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:53:52,035 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:53:52,041 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:53:52,110 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:53:52,113 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:53:52,203 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:53:52,208 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:53:52,253 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\arrangement\modifier\style.xml
+2026-05-11 22:53:52,266 INFO  --- [main] org.example.TestBase.testCodeEqual/271 : Compare `src\test\sources\arrangement\modifier\f1-gt.java`...
+2026-05-11 22:53:52,267 INFO  --- [main] org.example.TestBase.testCodeEqual/282 : Compare `src\test\sources\arrangement\modifier\f1-gt.java`...OK
+2026-05-11 22:53:52,276 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 22:53:52,281 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\arrangement\modifier] finished: 1 files succeeded, 0 files failed.
+2026-05-11 22:53:52,284 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\arrangement\modifier\style.xml
+2026-05-11 22:53:52,299 INFO  --- [main] org.example.TestBase.testCodeEqual/271 : Compare `src\test\sources\arrangement\modifier\f2-gt.java`...
+2026-05-11 22:53:52,301 INFO  --- [main] org.example.TestBase.testCodeEqual/282 : Compare `src\test\sources\arrangement\modifier\f2-gt.java`...OK
+2026-05-11 23:12:08,958 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.structure.CPPStructureStylerTest]: CPPStructureStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 23:12:09,209 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.structure.CPPStructureStylerTest
+2026-05-11 23:12:09,798 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting CPPStructureStylerTest using Java 17.0.11 with PID 24564 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 23:12:09,800 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 23:12:12,316 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started CPPStructureStylerTest in 2.975 seconds (process running for 4.491)
+2026-05-11 23:12:14,173 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\inc\f1-1-0-gt.cpp`...
+2026-05-11 23:12:14,230 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\inc\f1-1-0-gt.cpp`...OK
+2026-05-11 23:12:14,309 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\inc\f1-1-1-gt.cpp`...
+2026-05-11 23:12:14,311 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\inc\f1-1-1-gt.cpp`...OK
+2026-05-11 23:12:14,370 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\inc\f1-1-2-gt.cpp`...
+2026-05-11 23:12:14,372 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\inc\f1-1-2-gt.cpp`...OK
+2026-05-11 23:12:14,401 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\inc\f1-1-3-gt.cpp`...
+2026-05-11 23:12:14,402 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\inc\f1-1-3-gt.cpp`...OK
+2026-05-11 23:12:14,433 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\inc\f1-1-4-gt.cpp`...
+2026-05-11 23:12:14,435 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\inc\f1-1-4-gt.cpp`...OK
+2026-05-11 23:12:14,456 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\dec\f1-2-0-gt.cpp`...
+2026-05-11 23:12:14,460 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\dec\f1-2-0-gt.cpp`...OK
+2026-05-11 23:12:14,485 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\dec\f1-2-1-gt.cpp`...
+2026-05-11 23:12:14,488 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\dec\f1-2-1-gt.cpp`...OK
+2026-05-11 23:12:14,514 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\dec\f1-2-2-gt.cpp`...
+2026-05-11 23:12:14,517 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\dec\f1-2-2-gt.cpp`...OK
+2026-05-11 23:12:14,555 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\dec\f1-2-3-gt.cpp`...
+2026-05-11 23:12:14,558 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\dec\f1-2-3-gt.cpp`...OK
+2026-05-11 23:12:14,599 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\assignment\f1-3-0-gt.cpp`...
+2026-05-11 23:12:14,600 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\assignment\f1-3-0-gt.cpp`...OK
+2026-05-11 23:12:14,630 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\assignment\f1-3-1-gt.cpp`...
+2026-05-11 23:12:14,631 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\assignment\f1-3-1-gt.cpp`...OK
+2026-05-11 23:12:14,728 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\if\f1-4-0-gt.cpp`...
+2026-05-11 23:12:14,730 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\if\f1-4-0-gt.cpp`...OK
+2026-05-11 23:12:14,775 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\if\f1-4-1-gt.cpp`...
+2026-05-11 23:12:14,777 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\if\f1-4-1-gt.cpp`...OK
+2026-05-11 23:12:14,821 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\cascading-if\f1-5-0-gt.cpp`...
+2026-05-11 23:12:14,824 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\cascading-if\f1-5-0-gt.cpp`...OK
+2026-05-11 23:12:14,862 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\cascading-if\f1-5-1-gt.cpp`...
+2026-05-11 23:12:14,864 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\cascading-if\f1-5-1-gt.cpp`...OK
+2026-05-11 23:12:14,880 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop-empty\f1-6-0-gt.cpp`...
+2026-05-11 23:12:14,882 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop-empty\f1-6-0-gt.cpp`...OK
+2026-05-11 23:12:14,904 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop-empty\f1-6-1-gt.cpp`...
+2026-05-11 23:12:14,906 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop-empty\f1-6-1-gt.cpp`...OK
+2026-05-11 23:12:14,933 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop\f1-7-0-gt.cpp`...
+2026-05-11 23:12:14,935 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop\f1-7-0-gt.cpp`...OK
+2026-05-11 23:12:14,954 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop\f1-7-1-gt.cpp`...
+2026-05-11 23:12:14,957 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop\f1-7-1-gt.cpp`...OK
+2026-05-11 23:12:14,989 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop3\f1-9-0-gt.cpp`...
+2026-05-11 23:12:14,990 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop3\f1-9-0-gt.cpp`...OK
+2026-05-11 23:12:15,014 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop3\f1-9-1-gt.cpp`...
+2026-05-11 23:12:15,016 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop3\f1-9-1-gt.cpp`...OK
+2026-05-11 23:12:15,036 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop3\f1-9-2-gt.cpp`...
+2026-05-11 23:12:15,038 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop3\f1-9-2-gt.cpp`...OK
+2026-05-11 23:12:15,061 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop6\f1-12-0-gt.cpp`...
+2026-05-11 23:12:15,063 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop6\f1-12-0-gt.cpp`...OK
+2026-05-11 23:12:15,089 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop6\f1-12-1-gt.cpp`...
+2026-05-11 23:12:15,091 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop6\f1-12-1-gt.cpp`...OK
+2026-05-11 23:12:15,112 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop6\f1-12-2-gt.cpp`...
+2026-05-11 23:12:15,114 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop6\f1-12-2-gt.cpp`...OK
+2026-05-11 23:12:15,149 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\check-then-return\f1-13-0-gt.cpp`...
+2026-05-11 23:12:15,151 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\check-then-return\f1-13-0-gt.cpp`...OK
+2026-05-11 23:12:15,172 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\check-then-return\f1-13-1-gt.cpp`...
+2026-05-11 23:12:15,174 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\check-then-return\f1-13-1-gt.cpp`...OK
+2026-05-11 23:12:15,185 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:12:15,753 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources-cpp\structure\check-then-assign] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:12:15,783 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources-cpp\structure\check-then-assign\f1.xml
+2026-05-11 23:12:16,086 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\check-then-assign\f1-14-0-gt.cpp`...
+2026-05-11 23:12:16,089 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\check-then-assign\f1-14-0-gt.cpp`...OK
+2026-05-11 23:12:16,296 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\check-then-assign\f1-14-1-gt.cpp`...
+2026-05-11 23:12:16,298 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\check-then-assign\f1-14-1-gt.cpp`...OK
+2026-05-11 23:12:16,544 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\check-then-assign\f1-14-2-gt.cpp`...
+2026-05-11 23:12:16,546 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\check-then-assign\f1-14-2-gt.cpp`...OK
+2026-05-11 23:12:16,775 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\check-then-assign\f1-14-3-gt.cpp`...
+2026-05-11 23:12:16,776 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\check-then-assign\f1-14-3-gt.cpp`...OK
+2026-05-11 23:12:16,813 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\check-then-assign2\f1-15-0-gt.cpp`...
+2026-05-11 23:12:16,813 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\check-then-assign2\f1-15-0-gt.cpp`...OK
+2026-05-11 23:12:16,830 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\check-then-assign2\f1-15-1-gt.cpp`...
+2026-05-11 23:12:16,832 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\check-then-assign2\f1-15-1-gt.cpp`...OK
+2026-05-11 23:12:16,854 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\check-then-assign2\f1-15-2-gt.cpp`...
+2026-05-11 23:12:16,855 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\check-then-assign2\f1-15-2-gt.cpp`...OK
+2026-05-11 23:12:16,863 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\op-not-false\f1-18-0-gt.cpp`...
+2026-05-11 23:12:16,863 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\op-not-false\f1-18-0-gt.cpp`...OK
+2026-05-11 23:12:16,870 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\op-not-false\f1-18-1-gt.cpp`...
+2026-05-11 23:12:16,871 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\op-not-false\f1-18-1-gt.cpp`...OK
+2026-05-11 23:12:16,879 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\literal-position\f1-19-0-gt.cpp`...
+2026-05-11 23:12:16,880 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\literal-position\f1-19-0-gt.cpp`...OK
+2026-05-11 23:12:16,888 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\literal-position\f1-19-1-gt.cpp`...
+2026-05-11 23:12:16,889 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\literal-position\f1-19-1-gt.cpp`...OK
+2026-05-11 23:12:16,912 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\continue\f1-22-0-gt.cpp`...
+2026-05-11 23:12:16,912 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\continue\f1-22-0-gt.cpp`...OK
+2026-05-11 23:12:16,940 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\continue\f1-22-1-gt.cpp`...
+2026-05-11 23:12:16,940 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\continue\f1-22-1-gt.cpp`...OK
+2026-05-11 23:12:16,973 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\continue\f1-22-2-gt.cpp`...
+2026-05-11 23:12:16,974 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\continue\f1-22-2-gt.cpp`...OK
+2026-05-11 23:12:17,011 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\continue2\f1-23-0-gt.cpp`...
+2026-05-11 23:12:17,012 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\continue2\f1-23-0-gt.cpp`...OK
+2026-05-11 23:12:17,038 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\continue2\f1-23-1-gt.cpp`...
+2026-05-11 23:12:17,039 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\continue2\f1-23-1-gt.cpp`...OK
+2026-05-11 23:12:17,063 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\continue2\f1-23-2-gt.cpp`...
+2026-05-11 23:12:17,064 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\continue2\f1-23-2-gt.cpp`...OK
+2026-05-11 23:12:17,076 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\redundant1\f1-24-0-gt.cpp`...
+2026-05-11 23:12:17,076 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\redundant1\f1-24-0-gt.cpp`...OK
+2026-05-11 23:12:17,088 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\redundant1\f1-24-1-gt.cpp`...
+2026-05-11 23:12:17,088 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\redundant1\f1-24-1-gt.cpp`...OK
+2026-05-11 23:12:17,102 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\redundant2\f1-25-0-gt.cpp`...
+2026-05-11 23:12:17,103 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\redundant2\f1-25-0-gt.cpp`...OK
+2026-05-11 23:12:17,119 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\redundant2\f1-25-1-gt.cpp`...
+2026-05-11 23:12:17,119 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\redundant2\f1-25-1-gt.cpp`...OK
+2026-05-11 23:12:48,036 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.structure.CPPStructureStylerTest]: CPPStructureStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 23:12:48,297 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.structure.CPPStructureStylerTest
+2026-05-11 23:12:48,883 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting CPPStructureStylerTest using Java 17.0.11 with PID 32600 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 23:12:48,890 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 23:12:51,547 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started CPPStructureStylerTest in 3.1 seconds (process running for 4.602)
+2026-05-11 23:12:53,391 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\inc\f1-1-0-gt.cpp`...
+2026-05-11 23:12:53,486 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\inc\f1-1-0-gt.cpp`...OK
+2026-05-11 23:12:53,574 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\inc\f1-1-1-gt.cpp`...
+2026-05-11 23:12:53,576 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\inc\f1-1-1-gt.cpp`...OK
+2026-05-11 23:12:53,629 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\inc\f1-1-2-gt.cpp`...
+2026-05-11 23:12:53,632 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\inc\f1-1-2-gt.cpp`...OK
+2026-05-11 23:12:53,662 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\inc\f1-1-3-gt.cpp`...
+2026-05-11 23:12:53,665 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\inc\f1-1-3-gt.cpp`...OK
+2026-05-11 23:12:53,694 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\inc\f1-1-4-gt.cpp`...
+2026-05-11 23:12:53,696 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\inc\f1-1-4-gt.cpp`...OK
+2026-05-11 23:12:53,712 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\dec\f1-2-0-gt.cpp`...
+2026-05-11 23:12:53,716 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\dec\f1-2-0-gt.cpp`...OK
+2026-05-11 23:12:53,736 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\dec\f1-2-1-gt.cpp`...
+2026-05-11 23:12:53,738 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\dec\f1-2-1-gt.cpp`...OK
+2026-05-11 23:12:53,757 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\dec\f1-2-2-gt.cpp`...
+2026-05-11 23:12:53,758 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\dec\f1-2-2-gt.cpp`...OK
+2026-05-11 23:12:53,798 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\dec\f1-2-3-gt.cpp`...
+2026-05-11 23:12:53,800 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\dec\f1-2-3-gt.cpp`...OK
+2026-05-11 23:12:53,830 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\assignment\f1-3-0-gt.cpp`...
+2026-05-11 23:12:53,834 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\assignment\f1-3-0-gt.cpp`...OK
+2026-05-11 23:12:53,869 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\assignment\f1-3-1-gt.cpp`...
+2026-05-11 23:12:53,872 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\assignment\f1-3-1-gt.cpp`...OK
+2026-05-11 23:12:53,946 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\if\f1-4-0-gt.cpp`...
+2026-05-11 23:12:53,949 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\if\f1-4-0-gt.cpp`...OK
+2026-05-11 23:12:54,006 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\if\f1-4-1-gt.cpp`...
+2026-05-11 23:12:54,010 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\if\f1-4-1-gt.cpp`...OK
+2026-05-11 23:12:54,059 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\cascading-if\f1-5-0-gt.cpp`...
+2026-05-11 23:12:54,061 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\cascading-if\f1-5-0-gt.cpp`...OK
+2026-05-11 23:12:54,102 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\cascading-if\f1-5-1-gt.cpp`...
+2026-05-11 23:12:54,104 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\cascading-if\f1-5-1-gt.cpp`...OK
+2026-05-11 23:12:54,121 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop-empty\f1-6-0-gt.cpp`...
+2026-05-11 23:12:54,124 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop-empty\f1-6-0-gt.cpp`...OK
+2026-05-11 23:12:54,146 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop-empty\f1-6-1-gt.cpp`...
+2026-05-11 23:12:54,148 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop-empty\f1-6-1-gt.cpp`...OK
+2026-05-11 23:12:54,189 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop\f1-7-0-gt.cpp`...
+2026-05-11 23:12:54,191 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop\f1-7-0-gt.cpp`...OK
+2026-05-11 23:12:54,222 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop\f1-7-1-gt.cpp`...
+2026-05-11 23:12:54,225 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop\f1-7-1-gt.cpp`...OK
+2026-05-11 23:12:54,265 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop3\f1-9-0-gt.cpp`...
+2026-05-11 23:12:54,267 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop3\f1-9-0-gt.cpp`...OK
+2026-05-11 23:12:54,294 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop3\f1-9-1-gt.cpp`...
+2026-05-11 23:12:54,295 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop3\f1-9-1-gt.cpp`...OK
+2026-05-11 23:12:54,316 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop3\f1-9-2-gt.cpp`...
+2026-05-11 23:12:54,317 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop3\f1-9-2-gt.cpp`...OK
+2026-05-11 23:12:54,343 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop6\f1-12-0-gt.cpp`...
+2026-05-11 23:12:54,345 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop6\f1-12-0-gt.cpp`...OK
+2026-05-11 23:12:54,368 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop6\f1-12-1-gt.cpp`...
+2026-05-11 23:12:54,370 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop6\f1-12-1-gt.cpp`...OK
+2026-05-11 23:12:54,396 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\loop6\f1-12-2-gt.cpp`...
+2026-05-11 23:12:54,398 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\loop6\f1-12-2-gt.cpp`...OK
+2026-05-11 23:12:54,421 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\check-then-return\f1-13-0-gt.cpp`...
+2026-05-11 23:12:54,422 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\check-then-return\f1-13-0-gt.cpp`...OK
+2026-05-11 23:12:54,439 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\check-then-return\f1-13-1-gt.cpp`...
+2026-05-11 23:12:54,441 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\check-then-return\f1-13-1-gt.cpp`...OK
+2026-05-11 23:12:54,449 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:12:55,104 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources-cpp\structure\check-then-assign] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:12:55,111 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources-cpp\structure\check-then-assign\f1.xml
+2026-05-11 23:12:55,410 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\check-then-assign\f1-14-0-gt.cpp`...
+2026-05-11 23:12:55,413 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\check-then-assign\f1-14-0-gt.cpp`...OK
+2026-05-11 23:12:55,642 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\check-then-assign\f1-14-1-gt.cpp`...
+2026-05-11 23:12:55,644 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\check-then-assign\f1-14-1-gt.cpp`...OK
+2026-05-11 23:12:55,892 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\check-then-assign\f1-14-2-gt.cpp`...
+2026-05-11 23:12:55,894 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\check-then-assign\f1-14-2-gt.cpp`...OK
+2026-05-11 23:12:56,125 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\check-then-assign\f1-14-3-gt.cpp`...
+2026-05-11 23:12:56,126 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\check-then-assign\f1-14-3-gt.cpp`...OK
+2026-05-11 23:12:56,155 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\check-then-assign2\f1-15-0-gt.cpp`...
+2026-05-11 23:12:56,155 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\check-then-assign2\f1-15-0-gt.cpp`...OK
+2026-05-11 23:12:56,174 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\check-then-assign2\f1-15-1-gt.cpp`...
+2026-05-11 23:12:56,174 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\check-then-assign2\f1-15-1-gt.cpp`...OK
+2026-05-11 23:12:56,201 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\check-then-assign2\f1-15-2-gt.cpp`...
+2026-05-11 23:12:56,202 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\check-then-assign2\f1-15-2-gt.cpp`...OK
+2026-05-11 23:12:56,210 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\op-not-false\f1-18-0-gt.cpp`...
+2026-05-11 23:12:56,211 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\op-not-false\f1-18-0-gt.cpp`...OK
+2026-05-11 23:12:56,217 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\op-not-false\f1-18-1-gt.cpp`...
+2026-05-11 23:12:56,218 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\op-not-false\f1-18-1-gt.cpp`...OK
+2026-05-11 23:12:56,227 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\literal-position\f1-19-0-gt.cpp`...
+2026-05-11 23:12:56,228 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\literal-position\f1-19-0-gt.cpp`...OK
+2026-05-11 23:12:56,237 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\literal-position\f1-19-1-gt.cpp`...
+2026-05-11 23:12:56,238 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\literal-position\f1-19-1-gt.cpp`...OK
+2026-05-11 23:12:56,271 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\continue\f1-22-0-gt.cpp`...
+2026-05-11 23:12:56,272 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\continue\f1-22-0-gt.cpp`...OK
+2026-05-11 23:12:56,305 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\continue\f1-22-1-gt.cpp`...
+2026-05-11 23:12:56,306 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\continue\f1-22-1-gt.cpp`...OK
+2026-05-11 23:12:56,333 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\continue\f1-22-2-gt.cpp`...
+2026-05-11 23:12:56,334 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\continue\f1-22-2-gt.cpp`...OK
+2026-05-11 23:12:56,360 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\continue2\f1-23-0-gt.cpp`...
+2026-05-11 23:12:56,361 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\continue2\f1-23-0-gt.cpp`...OK
+2026-05-11 23:12:56,385 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\continue2\f1-23-1-gt.cpp`...
+2026-05-11 23:12:56,386 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\continue2\f1-23-1-gt.cpp`...OK
+2026-05-11 23:12:56,412 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\continue2\f1-23-2-gt.cpp`...
+2026-05-11 23:12:56,412 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\continue2\f1-23-2-gt.cpp`...OK
+2026-05-11 23:12:56,423 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\redundant1\f1-24-0-gt.cpp`...
+2026-05-11 23:12:56,425 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\redundant1\f1-24-0-gt.cpp`...OK
+2026-05-11 23:12:56,437 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\redundant1\f1-24-1-gt.cpp`...
+2026-05-11 23:12:56,438 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\redundant1\f1-24-1-gt.cpp`...OK
+2026-05-11 23:12:56,453 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\redundant2\f1-25-0-gt.cpp`...
+2026-05-11 23:12:56,454 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\redundant2\f1-25-0-gt.cpp`...OK
+2026-05-11 23:12:56,469 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\structure\redundant2\f1-25-1-gt.cpp`...
+2026-05-11 23:12:56,469 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\structure\redundant2\f1-25-1-gt.cpp`...OK
+2026-05-11 23:46:57,170 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.naming.format.NamingStylerTest]: NamingStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 23:46:57,426 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.naming.format.NamingStylerTest
+2026-05-11 23:46:58,028 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting NamingStylerTest using Java 17.0.11 with PID 13088 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 23:46:58,032 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 23:47:00,690 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started NamingStylerTest in 3.116 seconds (process running for 4.827)
+2026-05-11 23:47:01,754 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:47:02,132 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources-cpp\naming] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:47:02,267 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources-cpp\naming\style.xml
+2026-05-11 23:47:02,453 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\naming\f1tof2gt.cpp`...
+2026-05-11 23:47:02,454 ERROR --- [main] org.example.TestBase.testCodeEqualIgnoreWS/320 : Test `src\test\sources-cpp\naming\f1tof2gt.cpp` failed!
+java.nio.file.NoSuchFileException: src\test\sources-cpp\naming\f1tof2gt.cpp
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at java.base/java.nio.file.Files.readString(Files.java:3366)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at org.example.TestBase.testCodeEqualIgnoreWS(TestBase.java:317)
+	at org.example.styler.naming.format.NamingStylerTest.testCpp_naming_apply(NamingStylerTest.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2026-05-11 23:47:02,468 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\naming\f1tof2gt.cpp`...OK
+2026-05-11 23:48:48,845 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.naming.format.NamingStylerTest]: NamingStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 23:48:49,089 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.naming.format.NamingStylerTest
+2026-05-11 23:48:49,674 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting NamingStylerTest using Java 17.0.11 with PID 13960 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 23:48:49,678 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 23:48:52,535 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started NamingStylerTest in 3.301 seconds (process running for 4.968)
+2026-05-11 23:48:53,642 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:48:54,137 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources-cpp\naming] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:48:54,306 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources-cpp\naming\style.xml
+2026-05-11 23:48:54,492 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\naming\f1tof2gt.cpp`...
+2026-05-11 23:49:42,474 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.naming.format.NamingStylerTest]: NamingStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 23:49:42,726 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.naming.format.NamingStylerTest
+2026-05-11 23:49:43,247 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting NamingStylerTest using Java 17.0.11 with PID 17460 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 23:49:43,250 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 23:49:46,117 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started NamingStylerTest in 3.251 seconds (process running for 4.738)
+2026-05-11 23:49:47,182 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:49:47,664 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources-cpp\naming] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:49:47,859 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources-cpp\naming\style.xml
+2026-05-11 23:49:48,058 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\naming\f1tof2gt.cpp`...
+2026-05-11 23:49:48,105 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\naming\f1tof2gt.cpp`...OK
+2026-05-11 23:50:19,025 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.naming.format.NamingStylerTest]: NamingStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 23:50:19,255 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.naming.format.NamingStylerTest
+2026-05-11 23:50:19,840 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting NamingStylerTest using Java 17.0.11 with PID 22368 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 23:50:19,848 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 23:50:22,717 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started NamingStylerTest in 3.297 seconds (process running for 4.851)
+2026-05-11 23:50:23,755 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:50:24,083 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\naming] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:50:24,274 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:50:24,290 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\naming] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:50:24,341 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:50:24,351 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\naming] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:50:24,366 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:50:24,374 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\naming] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:50:24,454 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:50:24,695 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources-cpp\naming] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:50:24,824 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources-cpp\naming\style.xml
+2026-05-11 23:50:24,856 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\naming\f1tof2gt.cpp`...
+2026-05-11 23:50:24,859 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\naming\f1tof2gt.cpp`...OK
+2026-05-11 23:50:24,868 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:50:24,875 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\naming] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:50:24,879 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\naming\style.xml
+2026-05-11 23:50:24,892 INFO  --- [main] org.example.TestBase.testCodeEqual/275 : Compare `src\test\sources\naming\f1-gt.java`...
+2026-05-11 23:50:24,894 INFO  --- [main] org.example.TestBase.testCodeEqual/286 : Compare `src\test\sources\naming\f1-gt.java`...OK
+2026-05-11 23:50:24,896 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:50:24,903 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\naming] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:50:24,906 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\naming\style.xml
+2026-05-11 23:50:24,916 INFO  --- [main] org.example.TestBase.testCodeEqual/275 : Compare `src\test\sources\naming\f2-gt.java`...
+2026-05-11 23:50:24,917 INFO  --- [main] org.example.TestBase.testCodeEqual/286 : Compare `src\test\sources\naming\f2-gt.java`...OK
+2026-05-11 23:51:07,183 INFO  --- [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses/83 : Could not detect default configuration classes for test class [org.example.styler.naming.format.NamingStylerTest]: NamingStylerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-11 23:51:07,416 INFO  --- [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses/234 : Found @SpringBootConfiguration org.example.Main for test class org.example.styler.naming.format.NamingStylerTest
+2026-05-11 23:51:07,996 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarting/50 : Starting NamingStylerTest using Java 17.0.11 with PID 30464 (started by jiang in D:\jyy\research\style\transformer\style-core)
+2026-05-11 23:51:08,002 INFO  --- [main] org.springframework.boot.SpringApplication.logStartupProfileInfo/654 : No active profile set, falling back to 1 default profile: "default"
+2026-05-11 23:51:10,692 INFO  --- [main] org.springframework.boot.StartupInfoLogger.logStarted/56 : Started NamingStylerTest in 3.13 seconds (process running for 4.648)
+2026-05-11 23:51:11,794 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:51:12,096 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\naming] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:51:12,298 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:51:12,313 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\naming] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:51:12,335 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:51:12,343 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\naming] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:51:12,355 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:51:12,362 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\naming] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:51:12,425 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:51:12,697 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources-cpp\naming] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:51:12,948 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources-cpp\naming\style.xml
+2026-05-11 23:51:12,989 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/311 : Compare `src\test\sources-cpp\naming\f1tof2gt.cpp`...
+2026-05-11 23:51:12,994 INFO  --- [main] org.example.TestBase.testCodeEqualIgnoreWS/322 : Compare `src\test\sources-cpp\naming\f1tof2gt.cpp`...OK
+2026-05-11 23:51:13,003 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:51:13,011 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\naming] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:51:13,015 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\naming\style.xml
+2026-05-11 23:51:13,032 INFO  --- [main] org.example.TestBase.testCodeEqual/275 : Compare `src\test\sources\naming\f1-gt.java`...
+2026-05-11 23:51:13,034 INFO  --- [main] org.example.TestBase.testCodeEqual/286 : Compare `src\test\sources\naming\f1-gt.java`...OK
+2026-05-11 23:51:13,036 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [null] finished: 0 files succeeded, 0 files failed.
+2026-05-11 23:51:13,046 INFO  --- [main] org.example.stylekit.Extractor$1DirStat.log/51 : Directory [src\test\sources\naming] finished: 1 files succeeded, 0 files failed.
+2026-05-11 23:51:13,051 INFO  --- [main] org.example.style.StyleFileIO.write/89 : style result saved in:src\test\sources\naming\style.xml
+2026-05-11 23:51:13,063 INFO  --- [main] org.example.TestBase.testCodeEqual/275 : Compare `src\test\sources\naming\f2-gt.java`...
+2026-05-11 23:51:13,066 INFO  --- [main] org.example.TestBase.testCodeEqual/286 : Compare `src\test\sources\naming\f2-gt.java`...OK
